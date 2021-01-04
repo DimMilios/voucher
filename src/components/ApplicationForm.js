@@ -44,19 +44,26 @@ function ApplicationForm() {
             <div className="card-body">
               <Form>
                 <div className="form-group">
-                  <label htmlFor="afm">ΑΦΜ</label>
+                  <label htmlFor="afm">
+                    ΑΦΜ
+                    <span className="text-danger">*</span>
+                  </label>
                   <Field name="afm" className={errors.afm && touched.afm ? "is-invalid form-control" : "form-control"} inputMode="number" />
                   {errors.afm && touched.afm ? (<div className="invalid-feedback">{errors.afm}</div>) : null}
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="amka">ΑΜΚΑ</label>
+                  <label htmlFor="amka">
+                    ΑΜΚΑ
+                    <span className="text-danger">*</span>
+                  </label>
                   <Field
                     name="amka"
                     className={
                       touched.amka
                         ? errors.amka
-                          ? "is-invalid form-control" : "is-valid form-control"
+                          ? "is-invalid form-control"
+                          : "is-valid form-control"
                         : "form-control"}
                     inputMode="number"
                   />
@@ -64,19 +71,27 @@ function ApplicationForm() {
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="arithmosKartasOaed">Αριθμός Κάρτας Ανεργίας ΟΑΕΔ</label>
+                  <label htmlFor="arithmosKartasOaed">
+                    Αριθμός Κάρτας Ανεργίας ΟΑΕΔ
+                    <span className="text-danger">*</span>
+                  </label>
                   <Field name="arithmosKartasOaed" className={errors.arithmosKartasOaed && touched.arithmosKartasOaed ? "is-invalid form-control" : "form-control"} inputMode="number" />
                   {errors.arithmosKartasOaed && touched.arithmosKartasOaed ? (<div className="invalid-feedback">{errors.arithmosKartasOaed}</div>) : null}
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="arithmosTautotitas">Αριθμός ταυτότητας</label>
+                  <label htmlFor="arithmosTautotitas">
+                    Αριθμός ταυτότητας
+                    <span className="text-danger">*</span>
+                  </label>
                   <Field name="arithmosTautotitas" className={errors.arithmosTautotitas && touched.arithmosTautotitas ? "is-invalid form-control" : "form-control"} inputMode="number" />
                   {errors.arithmosTautotitas && touched.arithmosTautotitas ? (<div className="invalid-feedback">{errors.arithmosTautotitas}</div>) : null}
                 </div>
 
+                <p><strong>*Προσοχή: </strong>έχετε δικαίωμα για μόνο μία προσπάθεια υποβολής αίτησης. Ελέγξτε τα στοιχεία σας.</p>
+
                 <button className="btn btn-primary float-right ml-3" type="submit" disabled={isSubmitting}>Υποβολή</button>
-                <button className="btn btn-outline-primary float-right" type="button" disabled={isSubmitting}>Καθαρισμός Φόρμας</button>
+                <button className="btn btn-outline-primary float-right" type="button" disabled={isSubmitting}>Καθαρισμός</button>
               </Form>
             </div>
           </div>

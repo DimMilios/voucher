@@ -4,8 +4,10 @@
     - [1.1.1. Διαδικασίες](#111-διαδικασίες)
   - [1.2. B. Ζητούμενα - Παραδοτέα](#12-b-ζητούμενα---παραδοτέα)
   - [1.3. Σημειώσεις για το Use Case Diagram](#13-σημειώσεις-για-το-use-case-diagram)
-    - [Component break-down](#component-break-down)
-      - [Διαδικασία υποβολής και ελέγχου αίτησης](#διαδικασία-υποβολής-και-ελέγχου-αίτησης)
+    - [1.3.1. Component break-down](#131-component-break-down)
+      - [1.3.1.1. Διαδικασία 1: υποβολής και ελέγχου αίτησης](#1311-διαδικασία-1-υποβολής-και-ελέγχου-αίτησης)
+      - [Διαδικασία 2: μοριοδότησης αιτήσεων και ανάδειξης ωφελούμενων](#διαδικασία-2-μοριοδότησης-αιτήσεων-και-ανάδειξης-ωφελούμενων)
+      - [Διαδικασία 3: παράδοσης ηλεκτρονικού κουπονιού](#διαδικασία-3-παράδοσης-ηλεκτρονικού-κουπονιού)
   - [1.4. Γενικά](#14-γενικά)
 ## 1.1. A. Περιγραφή του προβλήματος
 - Από τη εταιρεία *Starbucks* χρώματα (Πράσινο, Μαύρο, Άσπρο)
@@ -79,8 +81,8 @@
 
 ## 1.3. Σημειώσεις για το Use Case Diagram
 Σελίδα περιγραφής για το Use Case Diagram του Visual Paradigm [[link]](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/).
-### Component break-down
-#### Διαδικασία υποβολής και ελέγχου αίτησης
+### 1.3.1. Component break-down
+#### 1.3.1.1. Διαδικασία 1: υποβολής και ελέγχου αίτησης
 Header, Footer για όλες τις σελίδες
 - AppPage
   - Card
@@ -120,6 +122,22 @@ Header, Footer για όλες τις σελίδες
   - Card [[success]](https://getbootstrap.com/docs/4.5/components/card/#mixins-utilities)
     - Card Body
       - Paragraph (μήνυμα επιτυχίας και επεξήγηση διαδικασίας)
+#### Διαδικασία 2: μοριοδότησης αιτήσεων και ανάδειξης ωφελούμενων
+**NEEDS REVIEW**
+Admin page
+- Table (αποτελέσματα μοριοδότησης - φθίνουσα σειρά)
+  - Table header (AMKA, Αριθμός μορίων)
+#### Διαδικασία 3: παράδοσης ηλεκτρονικού κουπονιού
+Page
+- Button (Ενεργοποίηση κουπονιού) ή στο Header ή κάπου άλλού
+- Card
+  - Card Header (Εισαγωγή Voucher_ID)
+  - Card Body
+    - Input (Εισαγωγή 16-ψηφιου Voucher_ID) 
+    - Button Submit
+- Success Page
+  - [Pdf Viewer component](https://ej2.syncfusion.com/react/demos/#/material/pdfviewer/default)
+- Error Page με το μήνυμα
 
 ## 1.4. Γενικά
 - Σχεδιαστικά κριτήρια (Βιβλίο σελ. 221)

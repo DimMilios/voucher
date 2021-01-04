@@ -1,0 +1,12 @@
+@import "../../variables.css";
+
+body {
+}
+
+header {
+  background-color: var(--white);
+}
+
+ul.nav {
+  color: var(--white);
+}

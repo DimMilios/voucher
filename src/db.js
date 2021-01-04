@@ -1,4 +1,4 @@
-export let citizens = [
+export const citizens = [
   {
     lastName: 'Παππάς',
     firstName: 'Νικόλαος',

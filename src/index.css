@@ -1,8 +1,4 @@
-:root {
-  --dark-green: #1e3d31;
-  --light-green: #2a8a15;
-  --white: #f7f7f7;
-}
+@import "./variables.css";
 
 body {
   margin: 0;
@@ -16,4 +12,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+main a {
+  color: var(--light-green);
+}
+
+main a:hover {
+  color: #fff;
+  background-color: var(--light-green);
 }
