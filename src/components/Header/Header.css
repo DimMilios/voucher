@@ -1,8 +1,5 @@
 @import "../../variables.css";
 
-body {
-}
-
 header {
   background-color: var(--white);
 }

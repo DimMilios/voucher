@@ -1,4 +1,5 @@
 import React from 'react';
+import ReadonlyForm from '../ReadonlyForm';
 // import './PreviewTable.css';
 
 function PreviewTable() {
@@ -17,14 +18,8 @@ function PreviewTable() {
         </div>
 
         <div className="card-body">
-          <form>
-            {dummyData.map(data =>
-              <div className="row form-group" key={data.category}>
-                <label htmlFor={data.category} className="m-0 col-4"><strong>{data.category}</strong></label>
-                <input name={data.category} readOnly={true} className="col-8 mb-2 ml-3 form-control" value={data.value} />
-              </div>
-            )}
-          </form>
+          <ReadonlyForm data={dummyData} />
+
           <p><strong>*Προσοχή: </strong>έχετε δικαίωμα για μόνο μία προσπάθεια υποβολής αίτησης. Ελέγξτε τα στοιχεία σας.</p>
           <button className="btn btn-outline-primary">Πίσω</button>
           <button className="btn btn-primary float-right">Επιβεβαίωση</button>
@@ -32,18 +27,6 @@ function PreviewTable() {
 
       </div>
     </div>
-
-
-    // <div className="card shadow mt-5">
-    //   <div className="card-body pt-0 pb-0">
-    //     {dummyData.map(data =>
-    //       <div className="row border" key={data.category}>
-    //         <div className="col-4 p-2"><strong>{data.category}</strong></div>
-    //         <div className="col-8 border-left p-2">{data.value}</div>
-    //       </div>
-    //     )}
-    //   </div>
-    // </div>
   );
 }
 
