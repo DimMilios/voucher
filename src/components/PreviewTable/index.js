@@ -12,6 +12,7 @@ function PreviewTable() {
 
   return (
     <div className="col-md-6 col-sm-12">
+
       <div className="card shadow mt-5">
         <div className="card-header">
           <h3>Επιβεβαίωση Στοιχείων</h3>

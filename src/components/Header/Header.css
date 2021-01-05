@@ -4,6 +4,10 @@ header {
   background-color: var(--white);
 }
 
-ul.nav {
-  color: var(--white);
+ul li a {
+  color: rgba(0, 0, 0, .6) !important;
+}
+
+ul li a {
+  letter-spacing: .25rem;
 }

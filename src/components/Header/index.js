@@ -1,24 +1,41 @@
 import React from 'react';
 import './Header.css';
 
+import { Link } from 'react-router-dom';
+
 function Header() {
   return (
     <header>
       <div className="container">
-        {/* <ul className="nav p-3">
-          <li className="nav-item nav-link active" href="#">Active</li>
-          <li className="nav-item nav-link" href="#">Link</li>
-          <li className="nav-item nav-link" href="#">Link</li>
-          <li className="nav-item nav-link disabled" href="#" tabIndex="-1" ariaDisabled="true">Disabled</li>
-        </ul> */}
-        <nav className="nav">
-          <a className="nav-link" href="#/">ΑΡΧΙΚΗ</a>
-          <a className="nav-link" href="#/">ΑΙΤΗΣΗ</a>
-          <a className="nav-link" href="#/">ΕΛΕΓΧΟΣ Voucher_ID</a>
-          <a className="nav-link disabled" href="#/" tabIndex="-1" aria-disabled="true">Disabled</a>
-        </nav>
+        <div className="row  py-3 ">
+          <div className="col-1">
+            <Link className="mr-3" to="/">
+              <img src="starbucks-logo.png" alt="Starbucks logo" />
+            </Link>
+          </div>
+
+          <div className="col-9">
+            <nav className="navbar navbar-expand-lg align-self-end">
+              <ul className="navbar-nav mr-auto">
+                <li className="nav-item px-1"><Link className="nav-link" to="/app-form">ΑΙΤΗΣΗ</Link></li>
+                <li className="nav-item px-1"><Link className="nav-link" to="/app-review">REVIEW</Link></li>
+                <li className="nav-item px-1"><Link className="nav-link" to="/app-results">RESULTS</Link></li>
+              </ul>
+            </nav>
+
+          </div>
+
+          <div className="col-2">
+            <button className="btn btn-outline-dark">
+              <Link className="nav-link" to="/activate">
+                ΕΝΕΡΓΟΠΟΙΗΣΗ ΚΟΥΠΟΝΙΟΥ
+              </Link>
+            </button>
+          </div>
+        </div>
+
       </div>
-    </header>
+    </header >
   );
 }
 
