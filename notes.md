@@ -140,6 +140,38 @@ Page
 - Error Page με το μήνυμα
 
 ## 1.4. Γενικά
+[JSON generator](https://www.json-generator.com/#)
+User schema
+```
+[
+  '{{repeat(15, 17)}}',
+  {
+    lastName: '{{random("Παππάς", "Παπαδάκης")}}',
+    firstName: '{{random("Νικόλαος", "Ιωάννης", "Εμμανουήλ", "Δημήτριος","Κωνσταντίνος")}}',
+    fathersName: '{{random("Νικόλαος", "Ιωάννης", "Εμμανουήλ", "Δημήτριος", "Κωνσταντίνος")}}',
+    birth_date: '{{date(new Date(1960, 0, 1), new Date(2002, 0, 1), "YYYY-MM-dd")}}',
+    afm: '{{integer(100000000, 999999999)}}',
+    amka: '{{integer(10000000000, 99999999999)}}',
+    oaed_number: '{{integer(10000000000000, 99999999999999)}}',
+    unemployment_duration: '{{integer(10, 40)}}',
+    status: '{{bool()}}',
+    is_ofeloumenos: '{{bool()}}'
+  }
+]
+```
+Application schema
+```
+[
+  '{{repeat(150, 170)}}',
+  {
+    is_moriodotimeni: '{{bool()}}',
+    amka: '{{integer(10000000000, 99999999999)}}',
+    moria: '{{integer(20, 1000)}}',
+    voucher_id: '{{integer(10000000000000, 99999999999999)}}'
+  }
+]
+```
+
 - Σχεδιαστικά κριτήρια (Βιβλίο σελ. 221)
   - **Απλότητα**
     - Η χρησιμότητα δεν πρέπει να θυσιάζεται για χάρη της λειτουργικότητας
