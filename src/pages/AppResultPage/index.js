@@ -1,23 +1,22 @@
 import React from 'react';
-import Header from '../../components/Header';
+import ApplicationTable from '../../components/ApplicationTable';
 import Footer from '../../components/Footer';
-import ApplicationForm from '../../components/ApplicationForm';
+import Header from '../../components/Header';
 
-function ApplicationFormPage() {
+function AppResultPage() {
   return (
     <>
       <Header />
       <main>
         <div className="container min-vh-100">
           <div className="row d-flex justify-content-center">
-            <ApplicationForm />
+            <ApplicationTable />
           </div>
         </div>
       </main>
-
       <Footer />
     </>
   );
 }
 
-export default ApplicationFormPage;
+export default AppResultPage;

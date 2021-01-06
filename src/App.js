@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';
@@ -12,12 +12,11 @@ import ReviewPage from "./pages/ReviewPage";
 import ResultPage from "./pages/ResultPage";
 import HomePage from "./pages/HomePage";
 import VoucherPage from "./pages/VoucherPage";
-
+import AppResultPage from "./pages/AppResultPage";
 
 function App() {
   return (
     <Router>
-
       <Switch>
         <Route path="/app-form">
           <ApplicationFormPage />
@@ -31,12 +30,15 @@ function App() {
         <Route path="/activate">
           <VoucherPage />
         </Route>
+        <Route path="/admin/applications">
+          <AppResultPage />
+        </Route>
         <Route path="/">
           <HomePage />
         </Route>
       </Switch>
       {/* <PdfViewerPage /> */}
-    </Router>
+    </Router >
   );
 }
 

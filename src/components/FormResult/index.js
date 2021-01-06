@@ -5,20 +5,30 @@ function FormResult({ type, title, content }) {
     `${extraElem}-${type} ${oldClass}`
 
   return (
-    <div className="col-md-6 col-sm-12">
-      <div className={switchStyling(type, "border", "card shadow mt-5")}>
-        <div className="card-header">
-          <h3>{title}</h3>
-        </div>
-        <div className="card-body">
-          <p className="card-text">{content.message}</p>
-          {content.href &&
-            <a href={content.href} target="_blank" rel="noreferrer">
-              Εξυπηρέτηση Πελατών
+    <div className={switchStyling(type, "alert", "alert mt-5 col-6")} role="alert">
+      <h4 className="alert-heading">{title}</h4>
+      <p>{content.message}</p>
+      {content.href &&
+        <a href={content.href} target="_blank" rel="noreferrer">
+          Εξυπηρέτηση Πελατών
             </a>}
-        </div>
-      </div>
     </div>
+
+
+    // <div className="col-md-6 col-sm-12">
+    //   <div className={switchStyling(type, "border", "card shadow mt-5")}>
+    //     <div className="card-header">
+    //       <h3>{title}</h3>
+    //     </div>
+    //     <div className="card-body">
+    //       <p className="card-text">{content.message}</p>
+    //       {content.href &&
+    //         <a href={content.href} target="_blank" rel="noreferrer">
+    //           Εξυπηρέτηση Πελατών
+    //         </a>}
+    //     </div>
+    //   </div>
+    // </div>
   );
 }
 

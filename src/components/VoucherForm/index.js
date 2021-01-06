@@ -35,7 +35,7 @@ function VoucherForm() {
               {errors.voucherId && touched.voucherId
                 ? (<div className="invalid-feedback">{errors.voucherId}</div>) : null}
 
-              <button type="submit" disabled={isSubmitting} className="btn btn-primary">Υποβολή</button>
+              <button type="submit" disabled={isSubmitting} className="btn btn-primary float-right mt-5">Υποβολή</button>
             </Form>
           </div>
         </div>
