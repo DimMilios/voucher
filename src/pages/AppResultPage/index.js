@@ -8,7 +8,7 @@ function AppResultPage() {
     <>
       <Header />
       <main>
-        <div className="container">
+        <div className="container min-vh-100">
           <div className="row d-flex justify-content-center">
             <ApplicationTable />
           </div>

@@ -11,3 +11,22 @@ ul li a {
 ul li a {
   letter-spacing: .25rem;
 }
+
+button.btn-outline-dark {
+  border-color: var(--dark-green);
+  background-color: var(--dark-green);
+  color: var(--dark-green);
+}
+
+button > a {
+  color: #fff;
+}
+
+button > a:hover {
+  color: var(--dark-green);
+}
+
+button.btn-outline-dark:hover {
+  border-color: var(--dark-green);
+  background-color: #fff;
+}

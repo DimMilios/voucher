@@ -10,7 +10,7 @@ function Header() {
     <header>
       <div className="container">
 
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light pl-0">
           <Link className="mr-3 navbar-brand" to="/">
             <img src={`${process.env.PUBLIC_URL}/starbucks-logo.png`} alt="Starbucks logo" />
           </Link>

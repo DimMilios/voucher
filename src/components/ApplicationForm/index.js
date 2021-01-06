@@ -1,6 +1,7 @@
 import React from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
+import './ApplicationForm.css';
 
 const FormSchema = Yup.object().shape({
   afm: Yup.string().length(9).required(),

@@ -1,6 +1,4 @@
 import React from 'react';
-import ReadonlyForm from '../ReadonlyForm';
-// import './PreviewTable.css';
 
 function PreviewTable() {
   const dummyData = [
