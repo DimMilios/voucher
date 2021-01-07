@@ -16,6 +16,7 @@
   }
 }
 
-p.text-white {
-  font-size: large;
+a:hover, .btn-outline-light:hover {
+  background-color: white !important;
+  color: black !important;
 }

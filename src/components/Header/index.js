@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header className="shadow">
-      <div className="container">
+      <div className="container px-0">
 
         <nav className="navbar navbar-expand-lg navbar-light bg-light pl-0">
           <Link className="mr-3 navbar-brand" to="/">
@@ -20,11 +20,12 @@ function Header() {
 
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mr-auto">
-              <li className="nav-item px-1"><Link className="nav-link" to="/">ΑΡΧΙΚΗ</Link></li>
+              {/* <li className="nav-item px-1"><Link className="nav-link" to="/">ΑΡΧΙΚΗ</Link></li> */}
               <li className="nav-item px-1"><Link className="nav-link" to="/app-form">ΑΙΤΗΣΗ</Link></li>
               <li className="nav-item px-1"><Link className="nav-link" to="/app-review">REVIEW</Link></li>
               <li className="nav-item px-1"><Link className="nav-link" to="/app-results">RESULTS</Link></li>
               <li className="nav-item px-1"><Link className="nav-link" to="/admin/applications">Applications</Link></li>
+              <li className="nav-item px-1"><Link className="nav-link" to="/coupon-pdf">ΚΟΥΠΟΝΙ</Link></li>
             </ul>
             <button className="btn btn-outline-dark">
               <Link className="nav-link" to="/activate">

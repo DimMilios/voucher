@@ -13,6 +13,7 @@ import ResultPage from "./pages/ResultPage";
 import HomePage from "./pages/HomePage";
 import VoucherPage from "./pages/VoucherPage";
 import AppResultPage from "./pages/AppResultPage";
+import PdfViewerPage from "./pages/PdfViewerPage";
 
 function App() {
   return (
@@ -30,10 +31,13 @@ function App() {
         <Route path="/activate">
           <VoucherPage />
         </Route>
+        <Route path="/coupon-pdf">
+          <PdfViewerPage />
+        </Route>
         <Route path="/admin/applications">
           <AppResultPage />
         </Route>
-        <Route path="/">
+        <Route exact path="/">
           <HomePage />
         </Route>
       </Switch>

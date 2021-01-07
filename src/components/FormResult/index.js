@@ -7,7 +7,7 @@ function FormResult({ type, title, content }) {
   return (
     <div className={switchStyling(type, "alert", "alert mt-5 col-6")} role="alert">
       <h4 className="text-center alert-heading">{title}</h4>
-      <p className="text-center">{content.message}</p>
+      <p className="text-center" style={{ fontSize: 'large' }}>{content.message}</p>
       {content.href &&
         <a href={content.href} target="_blank" rel="noreferrer">
           Εξυπηρέτηση Πελατών

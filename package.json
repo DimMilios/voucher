@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@syncfusion/ej2-react-pdfviewer": "^18.4.31",
+    "@pdftron/webviewer": "^7.2.0",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
@@ -21,7 +21,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "rm -rf ./build && npm run build",
+<<<<<<< HEAD
     "deploy": "gh-pages -d build"
+=======
+    "deploy": "gh-pages -d build",
+    "move-static": "cp -a ./node_modules/@pdftron/webviewer/public/. ./public/lib"
+>>>>>>> dev
   },
   "eslintConfig": {
     "extends": [
