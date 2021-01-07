@@ -11,14 +11,21 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+
+main {
+  min-height: calc(100vh - 5vh - 5vh);
 }
 
 main a {
-  color: var(--light-green);
+  /* color: var(--light-green); */
+  color: black;
+  font-weight: 600;
 }
 
 main a:hover {
   color: #fff;
-  background-color: var(--light-green);
+  /* background-color: var(--light-green); */
+  background-color: var(--dark-green);
 }

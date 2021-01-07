@@ -1,7 +1,7 @@
 @import "../../variables.css";
 
 footer {
-  /* height: 5vh; */
+  height: 5vh;
   min-height: 50px;
   background-color: rgb(0, 0, 0);
   color: #f7f7f7;
