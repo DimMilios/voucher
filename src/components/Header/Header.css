@@ -5,11 +5,11 @@ header {
 }
 
 ul li a {
-  color: rgba(0, 0, 0, .6) !important;
+  color: rgba(0, 0, 0, .8) !important;
 }
 
 ul li a {
-  letter-spacing: .25rem;
+  letter-spacing: .2rem;
 }
 
 button.btn-outline-dark {

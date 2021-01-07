@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header className="shadow">
-      <div className="container">
+      <div className="container px-0">
 
         <nav className="navbar navbar-expand-lg navbar-light bg-light pl-0">
           <Link className="mr-3 navbar-brand" to="/">
