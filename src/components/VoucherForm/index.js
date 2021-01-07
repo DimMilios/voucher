@@ -16,12 +16,10 @@ function VoucherForm() {
       {({ isSubmitting, errors, touched }) => (
         <div className="card shadow mt-5">
           <div className="card-header">
-            <h3>Εισαγωγή Voucher_ID</h3>
+            <h3>Voucher_ID</h3>
           </div>
           <div className="card-body">
             <Form>
-              <label htmlFor="voucherId">Voucher_ID</label>
-
               <Field className={
                 touched.voucherId
                   ? errors.voucherId
@@ -35,7 +33,7 @@ function VoucherForm() {
               {errors.voucherId && touched.voucherId
                 ? (<div className="invalid-feedback">{errors.voucherId}</div>) : null}
 
-              <button type="submit" disabled={isSubmitting} className="btn btn-primary float-right mt-5">Υποβολή</button>
+              <button type="submit" disabled={isSubmitting} className="btn btn-primary mt-3 float-right">Υποβολή</button>
             </Form>
           </div>
         </div>

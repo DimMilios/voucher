@@ -1,14 +1,22 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import './ApplicationForm.css';
 
 const FormSchema = Yup.object().shape({
-  afm: Yup.string().length(9).required(),
+  afm: Yup.string()
+    .length(9, 'Το πεδίο αποτελείται από 9 ψηφία')
+    .required('Το πεδίο είναι απαραίτητο'),
   amka: Yup.string()
-    .length(11, 'Το πεδίο δεν έχει αρκετά ψηφία').required(),
-  arithmosKartasOaed: Yup.string().length(16).required(),
-  arithmosTautotitas: Yup.string().matches('^[Α-Ω]{2}[0-9]{6}').required(),
+    .length(11, 'Το πεδίο αποτελείται από 11 ψηφία')
+    .required('Το πεδίο είναι απαραίτητο'),
+  arithmosKartasOaed: Yup.string()
+    .length(16, 'Το πεδίο αποτελείται από 16 ψηφία')
+    .required('Το πεδίο είναι απαραίτητο'),
+  arithmosTautotitas: Yup.string()
+    .matches('^[Α-Ω]{2}[0-9]{6}', 'Το πεδίο αποτελείται από 2 κεφαλαία γράμματα και 6 ψηφία')
+    .required('Το πεδίο είναι απαραίτητο'),
 });
 
 // const testStyle = {
@@ -21,6 +29,16 @@ const FormSchema = Yup.object().shape({
 // }
 
 function ApplicationForm() {
+  // const location = useLocation();
+
+  const isValid = (field, restClassNames) => field
+    ? `is-invalid ${restClassNames}`
+    : `is-valid ${restClassNames}`;
+
+  const [values, setValues] = React.useState({});
+
+  // React.useEffect(() => console.log(location), []);
+
   return (
     <div className="col-md-6 col-sm-12">
       <Formik
@@ -33,9 +51,10 @@ function ApplicationForm() {
         validationSchema={FormSchema}
         onSubmit={values => {
           console.log(values);
+          setValues(values);
         }}
       >
-        {({ isSubmitting, errors, touched }) => (
+        {({ errors, touched, isSubmitting, resetForm }) => (
           <div className="card shadow mt-5">
 
             <div className="card-header">
@@ -49,7 +68,14 @@ function ApplicationForm() {
                     ΑΦΜ
                     <span className="text-danger">*</span>
                   </label>
-                  <Field name="afm" className={errors.afm && touched.afm ? "is-invalid form-control" : "form-control"} inputMode="number" />
+                  <Field
+                    name="afm"
+                    className={
+                      touched.afm
+                        ? isValid(errors.afm, "form-control")
+                        : "form-control"}
+                    inputMode="number"
+                  />
                   {errors.afm && touched.afm ? (<div className="invalid-feedback">{errors.afm}</div>) : null}
                 </div>
 
@@ -62,9 +88,7 @@ function ApplicationForm() {
                     name="amka"
                     className={
                       touched.amka
-                        ? errors.amka
-                          ? "is-invalid form-control"
-                          : "is-valid form-control"
+                        ? isValid(errors.amka, "form-control")
                         : "form-control"}
                     inputMode="number"
                   />
@@ -76,7 +100,14 @@ function ApplicationForm() {
                     Αριθμός Κάρτας Ανεργίας ΟΑΕΔ
                     <span className="text-danger">*</span>
                   </label>
-                  <Field name="arithmosKartasOaed" className={errors.arithmosKartasOaed && touched.arithmosKartasOaed ? "is-invalid form-control" : "form-control"} inputMode="number" />
+                  <Field
+                    name="arithmosKartasOaed"
+                    className={
+                      touched.arithmosKartasOaed
+                        ? isValid(errors.arithmosKartasOaed, "form-control")
+                        : "form-control"}
+                    inputMode="number"
+                  />
                   {errors.arithmosKartasOaed && touched.arithmosKartasOaed ? (<div className="invalid-feedback">{errors.arithmosKartasOaed}</div>) : null}
                 </div>
 
@@ -85,19 +116,33 @@ function ApplicationForm() {
                     Αριθμός ταυτότητας
                     <span className="text-danger">*</span>
                   </label>
-                  <Field name="arithmosTautotitas" className={errors.arithmosTautotitas && touched.arithmosTautotitas ? "is-invalid form-control" : "form-control"} inputMode="number" />
+                  <Field
+                    name="arithmosTautotitas"
+                    className={
+                      touched.arithmosTautotitas
+                        ? isValid(errors.arithmosTautotitas, "form-control")
+                        : "form-control"}
+                    inputMode="number"
+                  />
                   {errors.arithmosTautotitas && touched.arithmosTautotitas ? (<div className="invalid-feedback">{errors.arithmosTautotitas}</div>) : null}
                 </div>
 
                 <p><strong>*Προσοχή: </strong>έχετε δικαίωμα για μόνο μία προσπάθεια υποβολής αίτησης. Ελέγξτε τα στοιχεία σας.</p>
 
                 <button className="btn btn-primary float-right ml-3" type="submit" disabled={isSubmitting}>Υποβολή</button>
-                <button className="btn btn-outline-primary float-right" type="button" disabled={isSubmitting}>Καθαρισμός</button>
+                <button className="btn btn-outline-primary float-right" type="button" disabled={isSubmitting} onClick={resetForm}>Καθαρισμός</button>
               </Form>
             </div>
           </div>
         )}
       </Formik>
+
+      <div className="mt-3">
+        <pre>
+          {Object.keys(values).length !== 0
+            && JSON.stringify(values, undefined, 2)}
+        </pre>
+      </div>
     </div>
   );
 }

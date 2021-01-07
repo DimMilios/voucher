@@ -7,7 +7,7 @@ function Header() {
 
 
   return (
-    <header>
+    <header className="shadow">
       <div className="container">
 
         <nav className="navbar navbar-expand-lg navbar-light bg-light pl-0">

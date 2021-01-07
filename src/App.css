@@ -15,3 +15,42 @@
 .App {
   text-align: center;
 }
+
+.card-header h3 {
+  color: #f7f7f7;
+}
+
+.card-body button.btn-primary {
+  background-color: var(--dark-green);
+  border-color: var(--dark-green);
+  color: #fff;
+}
+
+.card-body button.btn-primary:hover {
+  border-color: var(--dark-green);
+  background-color: #fff;
+  color: var(--dark-green);
+}
+
+.card-body button.btn-outline-primary {
+  border-color: var(--dark-green);
+  color: var(--dark-green);
+}
+
+.card-body button.btn-outline-primary:hover {
+  border-color: var(--dark-green);
+  background-color: var(--dark-green);
+  color: #fff;
+}
+
+button.btn-outline-primary > a {
+  border-color: var(--dark-green);
+  color: var(--dark-green);
+}
+
+button.btn-outline-primary:hover > a {
+  border-color: var(--dark-green);
+  background-color: var(--dark-green);
+  color: #fff;
+  text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+@import '../../variables.css';
+
+#panel1 {
+  background-color: black;
+}
+
+#panel2 {
+  background-color: var(--dark-green);
+}
+
+@media (max-width: 576px) {
+  img {
+    flex: 0 0 100%;
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
+
+p.text-white {
+  font-size: large;
+}
