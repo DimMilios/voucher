@@ -7,6 +7,7 @@ function HomePage() {
   return (
     <>
       <Header />
+
       <main>
         <div className="container min-vh-100">
           {/* <h1>Home Page</h1> */}
