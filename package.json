@@ -21,12 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "rm -rf ./build && npm run build",
-<<<<<<< HEAD
-    "deploy": "gh-pages -d build"
-=======
     "deploy": "gh-pages -d build",
     "move-static": "cp -a ./node_modules/@pdftron/webviewer/public/. ./public/lib"
->>>>>>> dev
   },
   "eslintConfig": {
     "extends": [
