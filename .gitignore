@@ -25,3 +25,6 @@ yarn-error.log*
 /notes.md
 /aitiseis.json
 /db.json
+
+# pdf-viewer
+/public/lib

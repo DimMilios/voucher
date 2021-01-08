@@ -36,7 +36,7 @@ button.btn-outline-primary > a {
   color: var(--dark-green);
 }
 
-button.btn-outline-primary:hover > a {
+button.btn-outline-primary:hover > a{
   border-color: var(--dark-green);
   background-color: var(--dark-green);
   color: #fff;
