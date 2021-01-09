@@ -1,7 +1,10 @@
 import React from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
+import { useHistory } from 'react-router-dom';
 import './VoucherForm.css';
+
+import { aitiseis } from '../../db';
 
 const FormSchema = Yup.object().shape({
   voucherId: Yup.string()
@@ -10,11 +13,20 @@ const FormSchema = Yup.object().shape({
 });
 
 function VoucherForm() {
+  const history = useHistory();
+
   return (
     <Formik
       initialValues={{ voucherId: '' }}
       validationSchema={FormSchema}
-      onSubmit={values => console.log(values)}
+      onSubmit={values => {
+        console.log(values);
+        const winner = aitiseis.find(a =>
+          a.is_moriodotimeni
+          && a.voucher_id.toString() === values.voucherId);
+
+        winner ? history.push('/coupon-pdf') : history.push('/app-results');
+      }}
     >
       {({ isSubmitting, errors, touched }) => (
         // <div className="card shadow mt-5">

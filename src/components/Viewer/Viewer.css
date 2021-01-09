@@ -1,0 +1,35 @@
+@import '../../variables.css';
+
+.voucher-pdf {
+  height: 50vh;
+  width: 40vw;
+}
+
+.iframe-container {
+  overflow: hidden;
+}
+
+@media (max-width: 999px) {
+  .voucher-pdf {
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+}
+
+.card-header h3 {
+  color: var(--white);
+}
+
+.card-footer {
+  background-color: var(--dark-green);
+}
+
+a.voucher-btn {
+  background-color: var(--white) !important;
+  color: #000 !important;
+}
+
+a.voucher-btn:hover {
+  background-color: var(--dark-green) !important;
+  color: var(--white) !important;
+}

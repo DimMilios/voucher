@@ -36,10 +36,6 @@ function ApplicationForm() {
     ? `is-invalid ${restClassNames}`
     : `is-valid ${restClassNames}`;
 
-  const [shouldSubmit, setShouldSubmit] = React.useState(false);
-  const [values, setValues] = React.useState({});
-
-  const handleSubmit = (errors, touched) => setShouldSubmit(!errors.afm && touched.afm && !errors.amka && touched.amka && !errors.arithmosKartasOaed && touched.arithmosKartasOaed && !errors.arithmosTautotitas && touched.arithmosTautotitas);
 
   // React.useEffect(() => console.log(location), []);
 
@@ -55,7 +51,6 @@ function ApplicationForm() {
         validationSchema={FormSchema}
         onSubmit={values => {
           console.log(values);
-          setValues(values);
           history.push('/app-review');
         }}
       >

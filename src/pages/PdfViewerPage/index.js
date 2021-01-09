@@ -9,8 +9,13 @@ function PdfViewerPage() {
     <>
       <Header />
       <main>
-        {/* <PdfViewer /> */}
-        <Viewer />
+        <div className="container">
+
+          <div className="row justify-content-center">
+            <Viewer />
+          </div>
+          {/* <PdfViewer /> */}
+        </div>
       </main>
       <Footer />
     </>

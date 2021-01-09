@@ -223,1011 +223,1551 @@ export const citizens = [
 
 export const aitiseis = [
   {
-    is_moriodotimeni: false,
-    amka: 73836324569,
-    moria: 322,
-    voucher_id: 35201014700142
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 93583233108,
-    moria: 140,
-    voucher_id: 12902176154961
+    is_moriodotimeni: true,
+    amka: 71695711918,
+    moria: 840,
+    voucher_id: 9892625530846994
   },
   {
     is_moriodotimeni: true,
-    amka: 14116315132,
-    moria: 814,
-    voucher_id: 70773112427791
+    amka: 73122380299,
+    moria: 550,
+    voucher_id: 1684847027001754
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 38664872110,
+    moria: 895,
+    voucher_id: 9908477723472810
   },
   {
     is_moriodotimeni: true,
     amka: 88178027765,
-    moria: 658,
-    voucher_id: 42164533195866
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 91331667970,
-    moria: 744,
-    voucher_id: 95353992926400
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 70921576505,
-    moria: 645,
-    voucher_id: 63025113438598
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 73836324569,
-    moria: 608,
-    voucher_id: 58848581400933
+    moria: 222,
+    voucher_id: 9124379979206804
   },
   {
     is_moriodotimeni: false,
+    amka: 73122380299,
+    moria: 734,
+    voucher_id: 1100806637849367
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 48879473402,
+    moria: 542,
+    voucher_id: 5726198627569840
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 91331667970,
+    moria: 870,
+    voucher_id: 6376793535650308
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 55411122799,
+    moria: 454,
+    voucher_id: 5220695960355580
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 13733841872,
+    moria: 107,
+    voucher_id: 8860318411616630
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 73122380299,
+    moria: 567,
+    voucher_id: 4342078513409797
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 93583233108,
+    moria: 646,
+    voucher_id: 8061699598174790
+  },
+  {
+    is_moriodotimeni: true,
     amka: 32871086029,
-    moria: 601,
-    voucher_id: 44372580936681
+    moria: 785,
+    voucher_id: 7149010448418284
   },
   {
     is_moriodotimeni: true,
-    amka: 27082994606,
-    moria: 576,
-    voucher_id: 55265052813943
+    amka: 32871086029,
+    moria: 132,
+    voucher_id: 4087862059482888
   },
   {
     is_moriodotimeni: false,
-    amka: 91331667970,
-    moria: 269,
-    voucher_id: 17933714268428
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 71695711918,
-    moria: 361,
-    voucher_id: 63218035470585
+    amka: 12970953161,
+    moria: 672,
+    voucher_id: 1456468867713284
   },
   {
     is_moriodotimeni: false,
     amka: 14057211597,
-    moria: 314,
-    voucher_id: 39995983596298
+    moria: 140,
+    voucher_id: 5769524271238044
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 13733841872,
+    moria: 215,
+    voucher_id: 1491601942571640
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 38664872110,
+    moria: 771,
+    voucher_id: 9283336546803438
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 17044041240,
+    moria: 809,
+    voucher_id: 1316599550852258
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73122380299,
+    moria: 547,
+    voucher_id: 1610208717830044
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 91331667970,
+    moria: 566,
+    voucher_id: 2842049112211528
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 14116315132,
+    moria: 28,
+    voucher_id: 4020083582722420
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 91331667970,
+    moria: 295,
+    voucher_id: 3352889058137161
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 14116315132,
+    moria: 443,
+    voucher_id: 7129370605568898
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 14116315132,
+    moria: 700,
+    voucher_id: 7887850306093174
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 71695711918,
+    moria: 232,
+    voucher_id: 7364358536649270
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 70921576505,
+    moria: 561,
+    voucher_id: 5858862371752970
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 71695711918,
+    moria: 139,
+    voucher_id: 1119647447768198
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 73122380299,
+    moria: 883,
+    voucher_id: 3731244664420559
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 13733841872,
+    moria: 139,
+    voucher_id: 9240818938081720
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 55411122799,
+    moria: 51,
+    voucher_id: 9783653254124240
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 48879473402,
+    moria: 537,
+    voucher_id: 2834505257284881
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73122380299,
+    moria: 978,
+    voucher_id: 6221375049031982
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 73122380299,
+    moria: 808,
+    voucher_id: 1554047725165332
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 12970953161,
+    moria: 332,
+    voucher_id: 9634459742080402
   },
   {
     is_moriodotimeni: false,
     amka: 27082994606,
-    moria: 233,
-    voucher_id: 17892813260593
+    moria: 869,
+    voucher_id: 8752817548364566
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 12970953161,
+    moria: 639,
+    voucher_id: 2430587173577961
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 73122380299,
+    moria: 784,
+    voucher_id: 3961467443323079
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 88178027765,
+    moria: 387,
+    voucher_id: 1612445293355315
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 12970953161,
+    moria: 231,
+    voucher_id: 9842532498389372
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73836324569,
+    moria: 560,
+    voucher_id: 8621540418547718
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 91331667970,
+    moria: 897,
+    voucher_id: 8679632928893394
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 88178027765,
+    moria: 362,
+    voucher_id: 9006016882425806
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 17044041240,
+    moria: 623,
+    voucher_id: 2392532447313382
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 14057211597,
+    moria: 831,
+    voucher_id: 3410963500261086
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 38664872110,
+    moria: 814,
+    voucher_id: 1381735009533890
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 73122380299,
+    moria: 125,
+    voucher_id: 9761927976927534
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73836324569,
+    moria: 60,
+    voucher_id: 2113807437739627
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 70921576505,
+    moria: 194,
+    voucher_id: 9611778324220506
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 73122380299,
+    moria: 416,
+    voucher_id: 7410187694403336
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 27082994606,
+    moria: 646,
+    voucher_id: 6528411051680400
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 71695711918,
+    moria: 608,
+    voucher_id: 4679144729786822
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 93583233108,
+    moria: 176,
+    voucher_id: 5800851421138366
   },
   {
     is_moriodotimeni: false,
     amka: 32871086029,
-    moria: 31,
-    voucher_id: 73335709115270
+    moria: 678,
+    voucher_id: 6565735457541388
   },
   {
     is_moriodotimeni: false,
+    amka: 12970953161,
+    moria: 942,
+    voucher_id: 9043987107272892
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 38664872110,
+    moria: 792,
+    voucher_id: 6212134348711912
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 13733841872,
+    moria: 35,
+    voucher_id: 6223531910631676
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 55411122799,
+    moria: 714,
+    voucher_id: 9326136379524958
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 13733841872,
+    moria: 461,
+    voucher_id: 9509965270772438
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 71695711918,
+    moria: 706,
+    voucher_id: 7462767174232102
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 91331667970,
+    moria: 615,
+    voucher_id: 8845097433281864
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 73122380299,
+    moria: 30,
+    voucher_id: 7108876454645092
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 48879473402,
+    moria: 202,
+    voucher_id: 2800671256813537
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 27082994606,
+    moria: 436,
+    voucher_id: 9843482634879202
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 32871086029,
+    moria: 399,
+    voucher_id: 5809259371168290
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 91331667970,
+    moria: 621,
+    voucher_id: 5737769831686952
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 70921576505,
+    moria: 572,
+    voucher_id: 2389505834288594
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 27082994606,
+    moria: 121,
+    voucher_id: 8200372376153920
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 55411122799,
+    moria: 860,
+    voucher_id: 6609669083389206
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 32871086029,
+    moria: 293,
+    voucher_id: 2744598015642654
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 93583233108,
+    moria: 617,
+    voucher_id: 7171027691598790
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 12970953161,
+    moria: 194,
+    voucher_id: 7464392894242988
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 88178027765,
+    moria: 412,
+    voucher_id: 8517517913167750
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 38664872110,
+    moria: 250,
+    voucher_id: 5048067468852190
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 91331667970,
+    moria: 831,
+    voucher_id: 9051491219544156
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 93583233108,
+    moria: 360,
+    voucher_id: 9000293232207254
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 14057211597,
+    moria: 265,
+    voucher_id: 3846700452057404
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 48879473402,
+    moria: 480,
+    voucher_id: 4311907222173939
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 12970953161,
+    moria: 140,
+    voucher_id: 9763582125884196
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73836324569,
+    moria: 727,
+    voucher_id: 5770459886585648
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73836324569,
+    moria: 98,
+    voucher_id: 1255719456264468
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 48879473402,
+    moria: 638,
+    voucher_id: 3188132991298153
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 91331667970,
+    moria: 886,
+    voucher_id: 2043560020289378
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73836324569,
+    moria: 663,
+    voucher_id: 5901537358529810
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 91331667970,
+    moria: 936,
+    voucher_id: 6875525592364040
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 13733841872,
+    moria: 397,
+    voucher_id: 3700645604315165
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 27082994606,
+    moria: 804,
+    voucher_id: 7347195368684608
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 71695711918,
+    moria: 808,
+    voucher_id: 7254304036354340
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 91331667970,
+    moria: 324,
+    voucher_id: 5705202238347162
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 38664872110,
+    moria: 877,
+    voucher_id: 7000413134213370
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 17044041240,
+    moria: 334,
+    voucher_id: 1568622604137444
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 70921576505,
+    moria: 847,
+    voucher_id: 2375619202246753
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 70921576505,
+    moria: 419,
+    voucher_id: 1564580883874591
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 88178027765,
+    moria: 666,
+    voucher_id: 6596688765425442
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 91331667970,
+    moria: 280,
+    voucher_id: 1651903130391812
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 88178027765,
+    moria: 38,
+    voucher_id: 6939904756208076
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 88178027765,
+    moria: 607,
+    voucher_id: 5626939488956686
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 13733841872,
+    moria: 805,
+    voucher_id: 2404461373998261
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 17044041240,
+    moria: 483,
+    voucher_id: 8062255638887634
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 38664872110,
+    moria: 92,
+    voucher_id: 9681873854667756
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 27082994606,
+    moria: 625,
+    voucher_id: 3256575096347043
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73122380299,
+    moria: 1000,
+    voucher_id: 4807001638866409
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 27082994606,
+    moria: 713,
+    voucher_id: 9758462678742522
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 27082994606,
+    moria: 122,
+    voucher_id: 6199473102739744
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 91331667970,
+    moria: 883,
+    voucher_id: 7662849451460182
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 71695711918,
+    moria: 527,
+    voucher_id: 8983854530189788
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 70921576505,
+    moria: 309,
+    voucher_id: 8330101095384102
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 55411122799,
+    moria: 773,
+    voucher_id: 5806060016424346
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 17044041240,
+    moria: 436,
+    voucher_id: 5467773771077892
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 17044041240,
+    moria: 485,
+    voucher_id: 5690016337152846
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 55411122799,
+    moria: 998,
+    voucher_id: 4380488188335803
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 38664872110,
+    moria: 639,
+    voucher_id: 9034511321431222
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 14116315132,
+    moria: 364,
+    voucher_id: 9209585222885642
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 14057211597,
+    moria: 678,
+    voucher_id: 2723581930630752
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 14116315132,
+    moria: 43,
+    voucher_id: 8878710423615976
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 73836324569,
+    moria: 697,
+    voucher_id: 4147867574107260
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 27082994606,
+    moria: 953,
+    voucher_id: 7614682421676718
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 70921576505,
+    moria: 599,
+    voucher_id: 3290698910595678
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 93583233108,
+    moria: 109,
+    voucher_id: 7400271991193658
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 38664872110,
+    moria: 659,
+    voucher_id: 1615578387047886
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73122380299,
+    moria: 422,
+    voucher_id: 4704937615349380
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 48879473402,
+    moria: 891,
+    voucher_id: 4290024238014950
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 27082994606,
+    moria: 220,
+    voucher_id: 5422397183062770
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 27082994606,
+    moria: 962,
+    voucher_id: 4428066052765513
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 91331667970,
+    moria: 677,
+    voucher_id: 5149179187370246
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 32871086029,
+    moria: 276,
+    voucher_id: 3063401073142647
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 14116315132,
+    moria: 947,
+    voucher_id: 3212795682144990
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 27082994606,
+    moria: 207,
+    voucher_id: 9259775212790904
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 13733841872,
+    moria: 266,
+    voucher_id: 3989417516660794
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 14057211597,
+    moria: 387,
+    voucher_id: 1245768745492863
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 88178027765,
+    moria: 249,
+    voucher_id: 7604546709690510
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 55411122799,
+    moria: 110,
+    voucher_id: 5743837745223764
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 70921576505,
+    moria: 479,
+    voucher_id: 7857492477027936
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 91331667970,
+    moria: 49,
+    voucher_id: 5440870076953392
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 27082994606,
+    moria: 405,
+    voucher_id: 8585935201047904
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 93583233108,
+    moria: 624,
+    voucher_id: 3929041211729291
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 27082994606,
+    moria: 383,
+    voucher_id: 6846838348263288
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 12970953161,
+    moria: 666,
+    voucher_id: 8286106029828114
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 17044041240,
+    moria: 816,
+    voucher_id: 7037820443155774
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 17044041240,
+    moria: 534,
+    voucher_id: 2100863821045815
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 12970953161,
+    moria: 312,
+    voucher_id: 9108852007101354
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 91331667970,
+    moria: 691,
+    voucher_id: 3775692010399154
+  },
+  {
+    is_moriodotimeni: true,
     amka: 13733841872,
     moria: 971,
-    voucher_id: 18446661319807
+    voucher_id: 5841747220892044
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 14057211597,
+    moria: 488,
+    voucher_id: 4645044075960148
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 71695711918,
+    moria: 898,
+    voucher_id: 1633151935507973
   },
   {
     is_moriodotimeni: true,
-    amka: 88178027765,
-    moria: 220,
-    voucher_id: 22218139430029
+    amka: 91331667970,
+    moria: 886,
+    voucher_id: 9309032491905070
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 14057211597,
+    moria: 83,
+    voucher_id: 1776500947890739
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 17044041240,
+    moria: 651,
+    voucher_id: 8063465058629942
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 73122380299,
+    moria: 398,
+    voucher_id: 4379246595771213
   },
   {
     is_moriodotimeni: false,
-    amka: 32871086029,
-    moria: 547,
-    voucher_id: 55080812757307
+    amka: 91331667970,
+    moria: 163,
+    voucher_id: 8424899992810592
   },
   {
-    is_moriodotimeni: false,
-    amka: 55411122799,
-    moria: 112,
-    voucher_id: 67946126785090
+    is_moriodotimeni: true,
+    amka: 70921576505,
+    moria: 666,
+    voucher_id: 5008052971218028
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 13733841872,
+    moria: 257,
+    voucher_id: 8467025159358832
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 73836324569,
+    moria: 571,
+    voucher_id: 8390701971574616
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 73836324569,
+    moria: 204,
+    voucher_id: 4448902951409360
   },
   {
     is_moriodotimeni: false,
     amka: 93583233108,
-    moria: 230,
-    voucher_id: 46997488402337
+    moria: 198,
+    voucher_id: 8396496577108734
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 14057211597,
+    moria: 71,
+    voucher_id: 1404218899819483
   },
   {
     is_moriodotimeni: false,
-    amka: 12970953161,
-    moria: 157,
-    voucher_id: 17900750800165
+    amka: 32871086029,
+    moria: 305,
+    voucher_id: 8204021576713892
   },
   {
     is_moriodotimeni: false,
     amka: 55411122799,
-    moria: 162,
-    voucher_id: 73513854966893
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 73836324569,
-    moria: 180,
-    voucher_id: 95453591670494
+    moria: 808,
+    voucher_id: 3576293228737459
   },
   {
     is_moriodotimeni: false,
-    amka: 55411122799,
-    moria: 901,
-    voucher_id: 33584078465235
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 12970953161,
-    moria: 383,
-    voucher_id: 59204444672997
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 73122380299,
-    moria: 495,
-    voucher_id: 77295067748096
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 27082994606,
-    moria: 455,
-    voucher_id: 89661878353817
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 48879473402,
-    moria: 160,
-    voucher_id: 32336197358976
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 12970953161,
-    moria: 683,
-    voucher_id: 35854140474287
+    amka: 13733841872,
+    moria: 943,
+    voucher_id: 8117734284619344
   },
   {
     is_moriodotimeni: false,
     amka: 48879473402,
-    moria: 567,
-    voucher_id: 66641723492984
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 17044041240,
-    moria: 490,
-    voucher_id: 32961649686347
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 70921576505,
-    moria: 924,
-    voucher_id: 88233243446349
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 88178027765,
-    moria: 825,
-    voucher_id: 25806952970437
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 73836324569,
-    moria: 622,
-    voucher_id: 42698875464734
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 73122380299,
     moria: 266,
-    voucher_id: 76147231648866
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 27082994606,
-    moria: 208,
-    voucher_id: 87777262283593
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 73836324569,
-    moria: 945,
-    voucher_id: 44982360138592
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 73836324569,
-    moria: 427,
-    voucher_id: 75284626204712
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 14057211597,
-    moria: 355,
-    voucher_id: 82820867385782
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 27082994606,
-    moria: 102,
-    voucher_id: 17423557163823
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 38664872110,
-    moria: 576,
-    voucher_id: 92568943976618
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 55411122799,
-    moria: 489,
-    voucher_id: 44036040118949
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 71695711918,
-    moria: 332,
-    voucher_id: 98256308895649
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 48879473402,
-    moria: 425,
-    voucher_id: 40466797435795
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 91331667970,
-    moria: 628,
-    voucher_id: 65225455548420
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 55411122799,
-    moria: 148,
-    voucher_id: 91696213631793
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 71695711918,
-    moria: 67,
-    voucher_id: 66183192134514
+    voucher_id: 8188110758661204
   },
   {
     is_moriodotimeni: false,
     amka: 73122380299,
-    moria: 402,
-    voucher_id: 86431526383662
+    moria: 412,
+    voucher_id: 3329098368374120
   },
   {
     is_moriodotimeni: false,
-    amka: 38664872110,
-    moria: 674,
-    voucher_id: 63438917601593
+    amka: 14057211597,
+    moria: 621,
+    voucher_id: 6439421482505702
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 48879473402,
+    moria: 571,
+    voucher_id: 2743527963405466
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73836324569,
+    moria: 936,
+    voucher_id: 1808061759522450
   },
   {
     is_moriodotimeni: true,
-    amka: 32871086029,
-    moria: 234,
-    voucher_id: 86503657222670
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 91331667970,
-    moria: 637,
-    voucher_id: 14850379841168
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 12970953161,
-    moria: 865,
-    voucher_id: 22537337307805
-  },
-  {
-    is_moriodotimeni: false,
     amka: 38664872110,
-    moria: 764,
-    voucher_id: 23666187090768
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 38664872110,
-    moria: 919,
-    voucher_id: 29660954467765
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 55411122799,
-    moria: 873,
-    voucher_id: 47819023635776
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 17044041240,
-    moria: 150,
-    voucher_id: 19383481201286
+    moria: 196,
+    voucher_id: 6001433333676324
   },
   {
     is_moriodotimeni: true,
     amka: 88178027765,
-    moria: 904,
-    voucher_id: 42549792049175
+    moria: 400,
+    voucher_id: 7782775057319538
   },
   {
     is_moriodotimeni: false,
-    amka: 73122380299,
-    moria: 691,
-    voucher_id: 72146302618279
+    amka: 55411122799,
+    moria: 230,
+    voucher_id: 7460069629938160
   },
   {
     is_moriodotimeni: true,
-    amka: 91331667970,
-    moria: 835,
-    voucher_id: 21212054918658
+    amka: 32871086029,
+    moria: 291,
+    voucher_id: 9478497613906476
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73836324569,
+    moria: 165,
+    voucher_id: 5312014178697985
   },
   {
     is_moriodotimeni: true,
-    amka: 14116315132,
-    moria: 228,
-    voucher_id: 16369287268545
+    amka: 73836324569,
+    moria: 737,
+    voucher_id: 3890740259663989
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 70921576505,
+    moria: 628,
+    voucher_id: 8375103557986188
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 32871086029,
+    moria: 267,
+    voucher_id: 7521211570524146
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 70921576505,
+    moria: 210,
+    voucher_id: 3998393843077029
   },
   {
     is_moriodotimeni: true,
     amka: 13733841872,
-    moria: 759,
-    voucher_id: 10125031807531
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 14057211597,
-    moria: 360,
-    voucher_id: 62007115682836
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 91331667970,
-    moria: 124,
-    voucher_id: 65278547436153
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 13733841872,
-    moria: 595,
-    voucher_id: 32827689470744
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 91331667970,
-    moria: 337,
-    voucher_id: 86610884697562
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 71695711918,
-    moria: 334,
-    voucher_id: 51364155392285
+    moria: 654,
+    voucher_id: 2611449239677594
   },
   {
     is_moriodotimeni: true,
     amka: 70921576505,
-    moria: 989,
-    voucher_id: 22290516125737
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 32871086029,
-    moria: 347,
-    voucher_id: 24196687772306
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 27082994606,
-    moria: 38,
-    voucher_id: 37223058715433
+    moria: 602,
+    voucher_id: 7274744607109608
   },
   {
     is_moriodotimeni: true,
     amka: 88178027765,
-    moria: 301,
-    voucher_id: 49870812648537
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 55411122799,
-    moria: 483,
-    voucher_id: 81410644213653
+    moria: 203,
+    voucher_id: 3129140884082559
   },
   {
     is_moriodotimeni: false,
     amka: 17044041240,
-    moria: 535,
-    voucher_id: 47211809255720
+    moria: 847,
+    voucher_id: 4254312826391482
   },
   {
     is_moriodotimeni: false,
-    amka: 38664872110,
-    moria: 897,
-    voucher_id: 60890360946668
+    amka: 17044041240,
+    moria: 850,
+    voucher_id: 3883856873941970
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 48879473402,
+    moria: 891,
+    voucher_id: 3566521913530941
   },
   {
     is_moriodotimeni: false,
-    amka: 88178027765,
-    moria: 913,
-    voucher_id: 25510323840806
+    amka: 14057211597,
+    moria: 354,
+    voucher_id: 7860827649880624
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 93583233108,
+    moria: 707,
+    voucher_id: 7894686876764530
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 27082994606,
+    moria: 63,
+    voucher_id: 4435856936786536
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 55411122799,
+    moria: 192,
+    voucher_id: 3310431958099343
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 32871086029,
+    moria: 578,
+    voucher_id: 9855035364539510
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 93583233108,
+    moria: 385,
+    voucher_id: 7162499071172010
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 48879473402,
+    moria: 976,
+    voucher_id: 3643837253032387
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 71695711918,
+    moria: 382,
+    voucher_id: 6059071396483508
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 55411122799,
+    moria: 712,
+    voucher_id: 1701144863295353
   },
   {
     is_moriodotimeni: false,
     amka: 14116315132,
-    moria: 274,
-    voucher_id: 91651475432432
+    moria: 828,
+    voucher_id: 5002021487433292
   },
   {
     is_moriodotimeni: false,
     amka: 55411122799,
-    moria: 630,
-    voucher_id: 13479612117368
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 17044041240,
-    moria: 949,
-    voucher_id: 30085916712969
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 27082994606,
-    moria: 42,
-    voucher_id: 32293432855863
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 38664872110,
-    moria: 916,
-    voucher_id: 56717959873466
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 13733841872,
-    moria: 821,
-    voucher_id: 73514917657581
+    moria: 499,
+    voucher_id: 8601979429804226
   },
   {
     is_moriodotimeni: true,
     amka: 71695711918,
-    moria: 340,
-    voucher_id: 25966309568704
+    moria: 178,
+    voucher_id: 6811703274429138
   },
   {
     is_moriodotimeni: true,
-    amka: 27082994606,
-    moria: 951,
-    voucher_id: 77193626416709
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 32871086029,
-    moria: 563,
-    voucher_id: 25451239851427
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 14057211597,
-    moria: 130,
-    voucher_id: 61136077005381
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 14057211597,
-    moria: 415,
-    voucher_id: 91071556967618
+    amka: 70921576505,
+    moria: 770,
+    voucher_id: 2911432303954891
   },
   {
     is_moriodotimeni: false,
-    amka: 73122380299,
-    moria: 146,
-    voucher_id: 82472062203721
+    amka: 17044041240,
+    moria: 23,
+    voucher_id: 3206898887661278
   },
   {
     is_moriodotimeni: true,
-    amka: 55411122799,
-    moria: 79,
-    voucher_id: 76613621090008
+    amka: 88178027765,
+    moria: 877,
+    voucher_id: 8254851965797662
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 14057211597,
+    moria: 833,
+    voucher_id: 7179657371670352
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 38664872110,
+    moria: 577,
+    voucher_id: 1991486732568587
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 27082994606,
+    moria: 154,
+    voucher_id: 2901557066852446
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 17044041240,
+    moria: 116,
+    voucher_id: 6506356700805686
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 91331667970,
+    moria: 60,
+    voucher_id: 5143266157862701
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 17044041240,
+    moria: 640,
+    voucher_id: 2535176695037276
   },
   {
     is_moriodotimeni: true,
     amka: 91331667970,
-    moria: 287,
-    voucher_id: 31638441783040
+    moria: 988,
+    voucher_id: 6627233560758696
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 14116315132,
+    moria: 860,
+    voucher_id: 7935401429927750
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 70921576505,
+    moria: 97,
+    voucher_id: 6222243204761104
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 88178027765,
+    moria: 799,
+    voucher_id: 1066156096526847
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 12970953161,
+    moria: 389,
+    voucher_id: 6353677976729496
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 93583233108,
+    moria: 970,
+    voucher_id: 4812927362431324
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 27082994606,
+    moria: 743,
+    voucher_id: 5236831753445837
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 91331667970,
+    moria: 827,
+    voucher_id: 8853100953561628
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 14057211597,
+    moria: 646,
+    voucher_id: 5480715473688548
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73836324569,
+    moria: 977,
+    voucher_id: 9363766915099106
   },
   {
     is_moriodotimeni: false,
     amka: 73122380299,
     moria: 157,
-    voucher_id: 80089005289241
+    voucher_id: 6319506688171124
   },
   {
     is_moriodotimeni: true,
-    amka: 73122380299,
-    moria: 231,
-    voucher_id: 53219392228216
+    amka: 14057211597,
+    moria: 67,
+    voucher_id: 4917798842430842
   },
   {
     is_moriodotimeni: true,
-    amka: 71695711918,
-    moria: 86,
-    voucher_id: 13022074313843
+    amka: 14116315132,
+    moria: 126,
+    voucher_id: 6279995168675582
   },
   {
     is_moriodotimeni: false,
-    amka: 14116315132,
-    moria: 467,
-    voucher_id: 74381679761243
+    amka: 17044041240,
+    moria: 289,
+    voucher_id: 8602727341118546
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 12970953161,
+    moria: 24,
+    voucher_id: 9000001222390728
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 93583233108,
+    moria: 341,
+    voucher_id: 6577180198793568
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 71695711918,
+    moria: 329,
+    voucher_id: 9648764971491372
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73122380299,
+    moria: 68,
+    voucher_id: 4727342762163908
   },
   {
     is_moriodotimeni: true,
-    amka: 55411122799,
-    moria: 553,
-    voucher_id: 20356227318774
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 27082994606,
-    moria: 361,
-    voucher_id: 98699579613494
+    amka: 12970953161,
+    moria: 882,
+    voucher_id: 5885433464404488
   },
   {
     is_moriodotimeni: false,
     amka: 48879473402,
-    moria: 714,
-    voucher_id: 55224740393639
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 88178027765,
-    moria: 303,
-    voucher_id: 40456763912133
+    moria: 168,
+    voucher_id: 9426705355493698
   },
   {
     is_moriodotimeni: true,
-    amka: 91331667970,
-    moria: 292,
-    voucher_id: 87232364212307
+    amka: 13733841872,
+    moria: 535,
+    voucher_id: 7333937016677984
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 12970953161,
+    moria: 604,
+    voucher_id: 9588435515032102
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 55411122799,
+    moria: 611,
+    voucher_id: 6451925403901360
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 71695711918,
+    moria: 777,
+    voucher_id: 4767715311752548
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 32871086029,
+    moria: 417,
+    voucher_id: 5536075341793912
   },
   {
     is_moriodotimeni: true,
     amka: 55411122799,
-    moria: 170,
-    voucher_id: 44363791723208
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 38664872110,
     moria: 179,
-    voucher_id: 48329157051810
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 73836324569,
-    moria: 565,
-    voucher_id: 56441363611306
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 14057211597,
-    moria: 615,
-    voucher_id: 94040369458575
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 13733841872,
-    moria: 501,
-    voucher_id: 15644037634068
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 32871086029,
-    moria: 27,
-    voucher_id: 77297396486096
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 14057211597,
-    moria: 136,
-    voucher_id: 54641659019628
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 70921576505,
-    moria: 853,
-    voucher_id: 23858384425117
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 32871086029,
-    moria: 74,
-    voucher_id: 77516060473811
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 70921576505,
-    moria: 625,
-    voucher_id: 74566884992612
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 91331667970,
-    moria: 893,
-    voucher_id: 92817822420636
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 13733841872,
-    moria: 101,
-    voucher_id: 67024973299350
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 17044041240,
-    moria: 340,
-    voucher_id: 32602020373355
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 14057211597,
-    moria: 988,
-    voucher_id: 53141431224483
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 38664872110,
-    moria: 753,
-    voucher_id: 56849234351226
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 12970953161,
-    moria: 147,
-    voucher_id: 45636710816517
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 93583233108,
-    moria: 293,
-    voucher_id: 94802906563198
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 70921576505,
-    moria: 370,
-    voucher_id: 77157107328747
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 38664872110,
-    moria: 411,
-    voucher_id: 16274892665234
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 91331667970,
-    moria: 139,
-    voucher_id: 94785554902286
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 91331667970,
-    moria: 567,
-    voucher_id: 39311977149901
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 73836324569,
-    moria: 662,
-    voucher_id: 83168276140610
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 88178027765,
-    moria: 335,
-    voucher_id: 83776869921657
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 14057211597,
-    moria: 602,
-    voucher_id: 54845018679716
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 13733841872,
-    moria: 689,
-    voucher_id: 89939530611005
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 32871086029,
-    moria: 586,
-    voucher_id: 30826214970343
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 38664872110,
-    moria: 613,
-    voucher_id: 78775318320181
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 13733841872,
-    moria: 542,
-    voucher_id: 96055999092725
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 14057211597,
-    moria: 569,
-    voucher_id: 28930633472401
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 14057211597,
-    moria: 863,
-    voucher_id: 73395836318322
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 73122380299,
-    moria: 781,
-    voucher_id: 95918741199953
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 17044041240,
-    moria: 864,
-    voucher_id: 25435062770095
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 73122380299,
-    moria: 81,
-    voucher_id: 80714487840445
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 12970953161,
-    moria: 57,
-    voucher_id: 84054639268843
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 73836324569,
-    moria: 412,
-    voucher_id: 43256204086428
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 27082994606,
-    moria: 312,
-    voucher_id: 92349911507169
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 71695711918,
-    moria: 989,
-    voucher_id: 64670594792202
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 71695711918,
-    moria: 363,
-    voucher_id: 36225401065473
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 14057211597,
-    moria: 812,
-    voucher_id: 47395282868905
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 73122380299,
-    moria: 543,
-    voucher_id: 27214048616174
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 70921576505,
-    moria: 653,
-    voucher_id: 50010191949066
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 73122380299,
-    moria: 817,
-    voucher_id: 49325890006655
+    voucher_id: 9467434625990208
   },
   {
     is_moriodotimeni: false,
     amka: 55411122799,
-    moria: 119,
-    voucher_id: 69987320267118
+    moria: 300,
+    voucher_id: 5555313615934800
   },
   {
     is_moriodotimeni: true,
-    amka: 88178027765,
-    moria: 732,
-    voucher_id: 45212114261161
+    amka: 48879473402,
+    moria: 478,
+    voucher_id: 1908300093447890
   },
   {
     is_moriodotimeni: true,
     amka: 14057211597,
-    moria: 821,
-    voucher_id: 62196249151506
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 73836324569,
-    moria: 701,
-    voucher_id: 28171508402359
+    moria: 234,
+    voucher_id: 9060520368612116
   },
   {
     is_moriodotimeni: false,
-    amka: 88178027765,
-    moria: 354,
-    voucher_id: 25831258860699
+    amka: 12970953161,
+    moria: 786,
+    voucher_id: 6858356582157168
   },
   {
     is_moriodotimeni: false,
-    amka: 73122380299,
-    moria: 169,
-    voucher_id: 52428109779799
+    amka: 70921576505,
+    moria: 744,
+    voucher_id: 6857148304314676
   },
   {
-    is_moriodotimeni: true,
-    amka: 14116315132,
-    moria: 949,
-    voucher_id: 31141498197459
-  },
-  {
-    is_moriodotimeni: true,
+    is_moriodotimeni: false,
     amka: 71695711918,
-    moria: 231,
-    voucher_id: 21210856192488
+    moria: 89,
+    voucher_id: 3056286073443060
   },
   {
     is_moriodotimeni: true,
-    amka: 27082994606,
-    moria: 138,
-    voucher_id: 88192995587226
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 48879473402,
-    moria: 936,
-    voucher_id: 75027402282903
-  },
-  {
-    is_moriodotimeni: false,
     amka: 12970953161,
-    moria: 343,
-    voucher_id: 64160223635988
+    moria: 645,
+    voucher_id: 6814509271586008
   },
   {
     is_moriodotimeni: false,
-    amka: 13733841872,
-    moria: 548,
-    voucher_id: 85529325044153
+    amka: 73836324569,
+    moria: 497,
+    voucher_id: 9217129982432156
   },
   {
     is_moriodotimeni: false,
-    amka: 88178027765,
-    moria: 614,
-    voucher_id: 28633408829739
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 48879473402,
-    moria: 261,
-    voucher_id: 27576916087114
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 38664872110,
-    moria: 774,
-    voucher_id: 37847729528161
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 70921576505,
-    moria: 858,
-    voucher_id: 91242735483512
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 12970953161,
-    moria: 857,
-    voucher_id: 98547147106978
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 70921576505,
-    moria: 228,
-    voucher_id: 58497367744514
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 93583233108,
-    moria: 627,
-    voucher_id: 93323499619068
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 73122380299,
-    moria: 920,
-    voucher_id: 21743761512834
-  },
-  {
-    is_moriodotimeni: true,
-    amka: 73122380299,
-    moria: 425,
-    voucher_id: 19474906836874
+    amka: 14116315132,
+    moria: 466,
+    voucher_id: 8895805722912114
   },
   {
     is_moriodotimeni: true,
     amka: 38664872110,
-    moria: 356,
-    voucher_id: 48271294439991
+    moria: 57,
+    voucher_id: 3126004847075826
   },
   {
     is_moriodotimeni: true,
-    amka: 14057211597,
-    moria: 640,
-    voucher_id: 79788838115916
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 73122380299,
-    moria: 547,
-    voucher_id: 74897335583147
-  },
-  {
-    is_moriodotimeni: false,
-    amka: 13733841872,
-    moria: 245,
-    voucher_id: 37628903425260
+    amka: 38664872110,
+    moria: 291,
+    voucher_id: 8239178696194888
   },
   {
     is_moriodotimeni: false,
     amka: 91331667970,
-    moria: 863,
-    voucher_id: 59782944653365
+    moria: 902,
+    voucher_id: 7033619371527748
   },
   {
     is_moriodotimeni: true,
-    amka: 73836324569,
-    moria: 383,
-    voucher_id: 49897483192347
+    amka: 93583233108,
+    moria: 68,
+    voucher_id: 6742682284565028
   },
   {
-    is_moriodotimeni: true,
+    is_moriodotimeni: false,
+    amka: 91331667970,
+    moria: 183,
+    voucher_id: 8398518941878376
+  },
+  {
+    is_moriodotimeni: false,
     amka: 32871086029,
-    moria: 66,
-    voucher_id: 59125642641469
+    moria: 171,
+    voucher_id: 2885878696920906
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 14116315132,
+    moria: 658,
+    voucher_id: 3171593826445690
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 27082994606,
+    moria: 938,
+    voucher_id: 7827924200877720
   },
   {
     is_moriodotimeni: true,
     amka: 73122380299,
-    moria: 152,
-    voucher_id: 20154275919473
+    moria: 824,
+    voucher_id: 6112380960431572
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 14057211597,
+    moria: 854,
+    voucher_id: 4925933107835577
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 93583233108,
+    moria: 642,
+    voucher_id: 3219427226910653
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 27082994606,
+    moria: 523,
+    voucher_id: 4406176137195394
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73122380299,
+    moria: 309,
+    voucher_id: 8847487744834654
   },
   {
     is_moriodotimeni: true,
+    amka: 13733841872,
+    moria: 195,
+    voucher_id: 3733788320376042
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 71695711918,
+    moria: 936,
+    voucher_id: 9583715284257682
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 27082994606,
+    moria: 809,
+    voucher_id: 6468316022331526
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 27082994606,
+    moria: 383,
+    voucher_id: 9712721497806928
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 27082994606,
+    moria: 324,
+    voucher_id: 8162341540192372
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 38664872110,
+    moria: 870,
+    voucher_id: 9946419326770038
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 73122380299,
+    moria: 378,
+    voucher_id: 1532570269435367
+  },
+  {
+    is_moriodotimeni: true,
+    amka: 14116315132,
+    moria: 648,
+    voucher_id: 1277344061664169
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 38664872110,
+    moria: 965,
+    voucher_id: 4320207554264918
+  },
+  {
+    is_moriodotimeni: false,
+    amka: 88178027765,
+    moria: 486,
+    voucher_id: 1966344466854802
+  },
+  {
+    is_moriodotimeni: false,
     amka: 17044041240,
-    moria: 69,
-    voucher_id: 97282966283432
+    moria: 384,
+    voucher_id: 1064199961279484
   }
 ];

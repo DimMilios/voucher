@@ -14,13 +14,13 @@ function VoucherPage() {
           <div className="row d-flex justify-content-center">
             <div className="container min-vh-100 d-flex align-items-center">
               <div className="row w-100 ">
-                <h1 className="display-3 text-white text-center mb-5 w-100">Δείτε το κουπόνι σας</h1>
+                <h1 className="display-3 text-white text-center mb-5 w-100">Ενεργοποιήστε το κουπόνι σας</h1>
 
                 <h4 className="text-white text-center mb-5">
-                  Η διαδικασία μοριοδότησης έχει ολοκληρωθεί. Τα αποτελέσματα της διαδικασίας έχουν ανακοινωθεί στη σελίδα του <strong>Starbucks MIS</strong>.
+                  Η διαδικασία μοριοδότησης έχει ολοκληρωθεί. Τα αποτελέσματα της διαδικασίας έχουν ανακοινωθεί στη σελίδα του Starbucks MIS.
                   </h4>
                 <h5 className="text-white text-center mb-4 w-100">
-                  Εισάγετε το Voucher ID που λάβατε για να δείτε το κουπόνι σας.
+                  Εισάγετε το Voucher ID που λάβατε για να εκτυπώσετε το κουπόνι σας.
                   </h5>
                 <VoucherForm />
                 <div className="mt-4 w-100 text-center">
