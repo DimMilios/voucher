@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/voucher/static/css/main.4a28e9d0.chunk.css",
-    "main.js": "/voucher/static/js/main.ef8ea45a.chunk.js",
-    "main.js.map": "/voucher/static/js/main.ef8ea45a.chunk.js.map",
+    "main.css": "/voucher/static/css/main.aa7abad4.chunk.css",
+    "main.js": "/voucher/static/js/main.82447a1d.chunk.js",
+    "main.js.map": "/voucher/static/js/main.82447a1d.chunk.js.map",
     "runtime-main.js": "/voucher/static/js/runtime-main.b79b983f.js",
     "runtime-main.js.map": "/voucher/static/js/runtime-main.b79b983f.js.map",
-    "static/js/2.2cdef3ff.chunk.js": "/voucher/static/js/2.2cdef3ff.chunk.js",
-    "static/js/2.2cdef3ff.chunk.js.map": "/voucher/static/js/2.2cdef3ff.chunk.js.map",
+    "static/js/2.7fabd54a.chunk.js": "/voucher/static/js/2.7fabd54a.chunk.js",
+    "static/js/2.7fabd54a.chunk.js.map": "/voucher/static/js/2.7fabd54a.chunk.js.map",
     "index.html": "/voucher/index.html",
-    "static/css/main.4a28e9d0.chunk.css.map": "/voucher/static/css/main.4a28e9d0.chunk.css.map",
-    "static/js/2.2cdef3ff.chunk.js.LICENSE.txt": "/voucher/static/js/2.2cdef3ff.chunk.js.LICENSE.txt"
+    "static/css/main.aa7abad4.chunk.css.map": "/voucher/static/css/main.aa7abad4.chunk.css.map",
+    "static/js/2.7fabd54a.chunk.js.LICENSE.txt": "/voucher/static/js/2.7fabd54a.chunk.js.LICENSE.txt",
+    "static/media/VoucherPage.css": "/voucher/static/media/starbucks-bg.2be5ef36.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b79b983f.js",
-    "static/js/2.2cdef3ff.chunk.js",
-    "static/css/main.4a28e9d0.chunk.css",
-    "static/js/main.ef8ea45a.chunk.js"
+    "static/js/2.7fabd54a.chunk.js",
+    "static/css/main.aa7abad4.chunk.css",
+    "static/js/main.82447a1d.chunk.js"
   ]
 }
