@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { Redirect, useHistory } from 'react-router-dom';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import './ApplicationForm.css';
@@ -7,16 +7,16 @@ import './ApplicationForm.css';
 const FormSchema = Yup.object().shape({
   afm: Yup.string()
     .length(9, 'Το πεδίο αποτελείται από 9 ψηφία')
-    .required('Το πεδίο είναι απαραίτητο'),
+    .required('Ο ΑΦΜ είναι υποχρεωτικός'),
   amka: Yup.string()
     .length(11, 'Το πεδίο αποτελείται από 11 ψηφία')
-    .required('Το πεδίο είναι απαραίτητο'),
+    .required('Ο ΑΜΚΑ είναι υποχρεωτικός'),
   arithmosKartasOaed: Yup.string()
     .length(16, 'Το πεδίο αποτελείται από 16 ψηφία')
-    .required('Το πεδίο είναι απαραίτητο'),
+    .required('Ο αριθμός κάρτας ΟΑΕΔ είναι υποχρεωτικός'),
   arithmosTautotitas: Yup.string()
     .matches('^[Α-Ω]{2}[0-9]{6}', 'Το πεδίο αποτελείται από 2 κεφαλαία γράμματα και 6 ψηφία')
-    .required('Το πεδίο είναι απαραίτητο'),
+    .required('Ο αριθμός ταυτότητας είναι υποχρεωτικός'),
 });
 
 // const testStyle = {
@@ -30,17 +30,21 @@ const FormSchema = Yup.object().shape({
 
 function ApplicationForm() {
   // const location = useLocation();
+  const history = useHistory();
 
   const isValid = (field, restClassNames) => field
     ? `is-invalid ${restClassNames}`
     : `is-valid ${restClassNames}`;
 
+  const [shouldSubmit, setShouldSubmit] = React.useState(false);
   const [values, setValues] = React.useState({});
+
+  const handleSubmit = (errors, touched) => setShouldSubmit(!errors.afm && touched.afm && !errors.amka && touched.amka && !errors.arithmosKartasOaed && touched.arithmosKartasOaed && !errors.arithmosTautotitas && touched.arithmosTautotitas);
 
   // React.useEffect(() => console.log(location), []);
 
   return (
-    <div className="col-md-6 col-sm-12">
+    <div className="col-lg-6 col-md-12 col-sm-12 col-12">
       <Formik
         initialValues={{
           afm: '',
@@ -52,6 +56,7 @@ function ApplicationForm() {
         onSubmit={values => {
           console.log(values);
           setValues(values);
+          history.push('/app-review');
         }}
       >
         {({ errors, touched, isSubmitting, resetForm }) => (
@@ -127,9 +132,13 @@ function ApplicationForm() {
                   {errors.arithmosTautotitas && touched.arithmosTautotitas ? (<div className="invalid-feedback">{errors.arithmosTautotitas}</div>) : null}
                 </div>
 
-                <p><strong>*Προσοχή: </strong>έχετε δικαίωμα για μόνο μία προσπάθεια υποβολής αίτησης. Ελέγξτε τα στοιχεία σας.</p>
+                <p><strong><span className="text-danger">*</span>Προσοχή: </strong>έχετε δικαίωμα για μόνο μία προσπάθεια υποβολής αίτησης. Ελέγξτε τα στοιχεία σας.</p>
 
-                <button className="btn btn-primary float-right ml-3" type="submit" disabled={isSubmitting}>Υποβολή</button>
+                <button className="btn btn-primary float-right ml-3" type="submit" disabled={isSubmitting}
+                >Υποβολή
+                {/* {shouldSubmit && <Redirect to="/app-review" />} */}
+                </button>
+
                 <button className="btn btn-outline-primary float-right" type="button" disabled={isSubmitting} onClick={resetForm}>Καθαρισμός</button>
               </Form>
             </div>
@@ -137,12 +146,6 @@ function ApplicationForm() {
         )}
       </Formik>
 
-      <div className="mt-3">
-        <pre>
-          {Object.keys(values).length !== 0
-            && JSON.stringify(values, undefined, 2)}
-        </pre>
-      </div>
     </div>
   );
 }

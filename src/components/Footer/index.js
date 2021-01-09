@@ -31,7 +31,7 @@ function Footer() {
           </ul>
         </div>
         <div id="info" className="row justify-content-center py-4">
-          <h6 className="mt-2">&copy;Dimitris Milios {(new Date()).getFullYear()} - Human Computer Interaction className</h6>
+          <h6 className="mt-2">&copy;Dimitris Milios {(new Date()).getFullYear()} - Human Computer Interaction Class</h6>
         </div>
       </div>
     </footer>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { categories, citizens } from '../../db';
 
 function PreviewTable() {
@@ -9,22 +9,24 @@ function PreviewTable() {
   //   { category: "ΟΑΕΔ", value: "99999999345334" },
   //   { category: "ΑΔΤ", value: "ΑΗ232323" },
   // ];
-  const [afm, setAfm] = useState('99999999');
-  const [amka, setAmka] = useState('9999999922');
-  const [oaed, setOaed] = useState('99999999345334');
-  const [adt, setAdt] = useState('ΑΗ232323');
+  // const [afm, setAfm] = useState('99999999');
+  // const [amka, setAmka] = useState('9999999922');
+  // const [oaed, setOaed] = useState('99999999345334');
+  // const [adt, setAdt] = useState('ΑΗ232323');
   const [values, setValues] = useState(Object.values(citizens[10]));
+  const history = useHistory();
 
+  // useEffect(() => {
+  //   setAfm(values.afm);
+  //   setAmka(values.amka);
+  //   setOaed(values.oaed);
+  //   setAdt(values.adt);
+  // }, [values.adt, values.afm, values.amka, values.oaed]);
 
-  useEffect(() => {
-    setAfm(values.afm);
-    setAmka(values.amka);
-    setOaed(values.oaed);
-    setAdt(values.adt);
-  }, [values.adt, values.afm, values.amka, values.oaed]);
+  const handleBackClick = () => history.goBack();
 
   return (
-    <div className="col-md-6 col-sm-12">
+    <div className="col-lg-6 col-md-12 col-sm-12 col-12">
 
       <div className="card shadow mt-5">
         <div className="card-header">
@@ -34,11 +36,6 @@ function PreviewTable() {
         <div className="card-body">
           <table className="table table-bordered mb-0">
             <tbody>
-              {/* {dummyData.map(cat =>
-                <tr key={cat.category}>
-                  <th scope="col">{cat.category}</th>
-                  <td>{cat.value}</td>
-                </tr>)} */}
               {categories.map((cat, index) => {
                 return <tr key={cat}>
                   <th scope="col">{cat}</th>
@@ -57,22 +54,15 @@ function PreviewTable() {
               <span className="text-danger">*</span>
               <strong>Προσοχή: </strong>έχετε δικαίωμα για μόνο μία προσπάθεια υποβολής αίτησης. Ελέγξτε τα στοιχεία σας.</p>
             <div className="d-flex justify-content-between pb-3 px-2">
-              <button className="btn btn-outline-primary">
-                {/* <Link
-                  to={{
-                    pathName: "/app-form",
-                    state: {
-                      afm,
-                      amka,
-                      oaed,
-                      adt
-                    },
-                  }}>
-                  Πίσω
-                </Link> */}
-                <Link to="/app-form">Πίσω</Link>
+              <button className="btn btn-outline-primary" onClick={handleBackClick}>
+                Πίσω
+                {/* <Link to="/app-form">Πίσω</Link> */}
               </button>
-              <button className="btn btn-primary">Επιβεβαίωση</button>
+              <button className="btn btn-primary">
+                <Link to="/app-results">
+                  Επιβεβαίωση
+                </Link>
+              </button>
             </div>
           </div>
 

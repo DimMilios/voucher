@@ -14,6 +14,7 @@ import HomePage from "./pages/HomePage";
 import VoucherPage from "./pages/VoucherPage";
 import AppResultPage from "./pages/AppResultPage";
 import PdfViewerPage from "./pages/PdfViewerPage";
+import AdminPage from "./pages/AdminPage";
 
 function App() {
   return (
@@ -34,9 +35,14 @@ function App() {
         <Route path="/coupon-pdf">
           <PdfViewerPage />
         </Route>
+
+        <Route exact path="/admin">
+          <AdminPage />
+        </Route>
         <Route path="/admin/applications">
           <AppResultPage />
         </Route>
+
         <Route exact path="/">
           <HomePage />
         </Route>

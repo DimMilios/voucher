@@ -1,0 +1,13 @@
+@import '../../variables.css';
+
+form button.btn-primary {
+  background-color: var(--dark-green);
+  border-color: var(--dark-green);
+  color: #fff;
+}
+
+form button.btn-primary:hover {
+  border-color: #000;
+  background-color: #000;
+  color: #fff;
+}
