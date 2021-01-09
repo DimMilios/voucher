@@ -7,16 +7,16 @@ import './ApplicationForm.css';
 const FormSchema = Yup.object().shape({
   afm: Yup.string()
     .length(9, 'Το πεδίο αποτελείται από 9 ψηφία')
-    .required('Το πεδίο είναι απαραίτητο'),
+    .required('Ο ΑΦΜ είναι υποχρεωτικός'),
   amka: Yup.string()
     .length(11, 'Το πεδίο αποτελείται από 11 ψηφία')
-    .required('Το πεδίο είναι απαραίτητο'),
+    .required('Ο ΑΜΚΑ είναι υποχρεωτικός'),
   arithmosKartasOaed: Yup.string()
     .length(16, 'Το πεδίο αποτελείται από 16 ψηφία')
-    .required('Το πεδίο είναι απαραίτητο'),
+    .required('Ο αριθμός κάρτας ΟΑΕΔ είναι υποχρεωτικός'),
   arithmosTautotitas: Yup.string()
     .matches('^[Α-Ω]{2}[0-9]{6}', 'Το πεδίο αποτελείται από 2 κεφαλαία γράμματα και 6 ψηφία')
-    .required('Το πεδίο είναι απαραίτητο'),
+    .required('Ο αριθμός ταυτότητας είναι υποχρεωτικός'),
 });
 
 // const testStyle = {

@@ -41,14 +41,11 @@ function HomePage() {
             <div className="panel-container container">
               <div className="row panel mb-lg-0 mb-5">
                 <div className="col-lg-7 col-md-12 col-sm-12 align-self-center pl-lg-5 p-md-5 p-sm-5 p-5">
-                  <h1 className="text-white">**FIX TEXT**</h1>
                   <h3 className="text-white">Πρόγραμμα Voucher</h3>
-                  <h5 className="text-white mt-4 mb-4" style={{ lineHeight: '2.2rem' }}>
-                    Η εταιρεία Starbucks για τη διανομή ηλεκτρονικών κουπονιών σε άνεργους. Κάθε κουπόνι αντιστοιχεί σε μία οικονομική αξία εξαργυρώσει σε καταστήματα της εταιρείας ανά τον κόσμο.
-                    Υποψήφιοι
-                    δικαιούχοι ενός κουπονιού είναι άτομα που έχουν γεννηθεί μετά την 31η
-                    /12/1984 και έχουν ενεργή εγγραφή στο μητρώο πελατών της εταιρείας.
+                  <h5 className="text-white mt-4 mb-3" style={{ lineHeight: '2.2rem' }}>
+                    Η εταιρεία Starbucks δημιούργησε το πρόγραμμα Voucher με σκοπό τη διανομή ηλεκτρονικών κουπονιών σε άνεργους. Κάθε κουπόνι μπορεί να εξαργυρωθεί σε καταστήματα της εταιρείας ανά τον κόσμο.
                 </h5>
+
 
                   {/* <button className="btn btn-outline-light p-0"> */}
                   <NavLink
@@ -59,6 +56,11 @@ function HomePage() {
                   >
                     Κάντε αίτηση τώρα
                 </NavLink>
+                  <div className="mt-5">
+                    <small className="text-white">
+                      *Υποψήφιοι δικαιούχοι ενός κουπονιού είναι άτομα που έχουν γεννηθεί μετά τις 31/12/1984 και έχουν ενεργή εγγραφή στο μητρώο πελατών της εταιρείας.
+                    </small>
+                  </div>
                   {/* </button> */}
                 </div>
 

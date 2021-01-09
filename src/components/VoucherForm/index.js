@@ -1,6 +1,7 @@
 import React from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
+import './VoucherForm.css';
 
 const FormSchema = Yup.object().shape({
   voucherId: Yup.string()
@@ -22,24 +23,24 @@ function VoucherForm() {
         //   </div>
         //   <div className="card-body">
         <Form className="form-inline w-100 align-items-start">
-          <div className="col-6 form-group p-0">
+          <div className="col-12 col-lg-6 col-md-12 col-sm-12 form-group p-0">
             <Field className={
               touched.voucherId
                 ? errors.voucherId
-                  ? "is-invalid form-control w-100 py-3"
-                  : "is-valid form-control w-100 py-3"
-                : "form-control w-100"}
+                  ? "is-invalid form-control w-100 py-4"
+                  : "is-valid form-control w-100 py-4"
+                : "form-control w-100 py-4"}
               name="voucherId"
               inputMode="number"
-              placeholder="Voucher_ID"
+              placeholder="Voucher ID"
             />
             {errors.voucherId && touched.voucherId
               ? (<div className="invalid-feedback">{errors.voucherId}</div>) : null}
           </div>
 
-          <div className="col-6 form-group p-0">
+          <div className="col-12 col-lg-6 col-md-12 col-sm-12 form-group p-0 mt-lg-0 mt-md-4 mt-sm-4 mt-4">
 
-            <button type="submit" disabled={isSubmitting} className="w-100 btn btn-primary float-right">Υποβολή</button>
+            <button type="submit" disabled={isSubmitting} className="w-100 btn btn-primary float-right"><h4>Υποβολή</h4></button>
           </div>
         </Form>
         //   </div>

@@ -1,9 +1,14 @@
+main#voucher-page {
+  background: black;
+  overflow: hidden;
+}
+
 div.voucher div.row {
   position: relative;
   z-index: 2;
 }
 
-div.voucher:after {
+div.voucher:before {
   content: "";
   display: block;
   position: absolute;
@@ -12,12 +17,12 @@ div.voucher:after {
   width: 100%;
   height: 100%;
   z-index: 1;
-  opacity: 0.6;
-  filter: grayscale(80%);
+  opacity: 0.4;
+  filter: grayscale(100%);
 
   background-image: url(../../assets/images/starbucks-bg.jpg);
   background-color: transparent;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
+  /* background-repeat: no-repeat; */
+  background-position: 50% 90%;
   background-size: cover;
 }
