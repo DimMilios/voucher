@@ -1,14 +1,16 @@
 import React from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import PdfViewer from '../../components/PdfViewer';
+// import PdfViewer from '../../components/PdfViewer';
+import Viewer from '../../components/Viewer';
 
 function PdfViewerPage() {
   return (
     <>
       <Header />
       <main>
-        <PdfViewer />
+        {/* <PdfViewer /> */}
+        <Viewer />
       </main>
       <Footer />
     </>
