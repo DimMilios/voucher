@@ -36,11 +36,6 @@ function PreviewTable() {
         <div className="card-body">
           <table className="table table-bordered mb-0">
             <tbody>
-              {/* {dummyData.map(cat =>
-                <tr key={cat.category}>
-                  <th scope="col">{cat.category}</th>
-                  <td>{cat.value}</td>
-                </tr>)} */}
               {categories.map((cat, index) => {
                 return <tr key={cat}>
                   <th scope="col">{cat}</th>
