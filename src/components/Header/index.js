@@ -22,8 +22,6 @@ function Header() {
             <ul className="navbar-nav mr-auto">
               {/* <li className="nav-item px-1"><Link className="nav-link" to="/">ΑΡΧΙΚΗ</Link></li> */}
               <li className="nav-item px-1"><Link className="nav-link" to="/app-form">ΑΙΤΗΣΗ</Link></li>
-              <li className="nav-item px-1"><Link className="nav-link" to="/app-review">REVIEW</Link></li>
-              <li className="nav-item px-1"><Link className="nav-link" to="/app-results">RESULTS</Link></li>
               <li className="nav-item px-1"><Link className="nav-link" to="/coupon-pdf">ΚΟΥΠΟΝΙ</Link></li>
               <li className="nav-item px-1 ml-4"><Link className="nav-link" to="/admin">ADMIN</Link></li>
             </ul>

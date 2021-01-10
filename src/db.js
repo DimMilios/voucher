@@ -4,14 +4,16 @@
 //   .indexOf(value.amka) === index);
 
 export const categories = [
-  "Επώνυμο",
-  "Όνομα",
-  "Πατρώνυμο",
-  "Ημερομηνία Γέννησης",
-  "ΑΦΜ",
-  "ΑMKA",
-  "ΟΑΕΔ",
-  "Διάρκεια ανεργίας"
+  { category: "ΑΦΜ", value: "afm" },
+  { category: "ΑMKA", value: "amka" },
+  { category: "ΟΑΕΔ", value: "oaed" },
+  // { category: "ΑΔΤ", value: "adt" },
+  { category: "Επώνυμο", value: "lastName" },
+  { category: "Όνομα", value: "firstName" },
+  { category: "Πατρώνυμο", value: "fathersName" },
+  { category: "Ημερομηνία Γέννησης", value: "birthDate" },
+  { category: "Διάρκεια ανεργίας", value: "unemploymentDuration" },
+  { category: "Status", value: "status" }
 ];
 
 export const citizens = [
@@ -19,12 +21,12 @@ export const citizens = [
     lastName: 'Παπαδάκης',
     firstName: 'Ιωάννης',
     fathersName: 'Κωνσταντίνος',
-    birth_date: '1996-12-06',
-    afm: 412858468,
-    amka: 13733841872,
-    oaed_number: 43850284533062,
+    birth_date: '1993-12-06',
+    afm: 412858486,
+    amka: 13733841333,
+    oaed_number: 4385028453306299,
     unemployment_duration: 23,
-    status: false,
+    status: true,
     is_ofeloumenos: true
   },
   {
@@ -34,7 +36,7 @@ export const citizens = [
     birth_date: '1986-05-07',
     afm: 863665086,
     amka: 38664872110,
-    oaed_number: 35095657475401,
+    oaed_number: 3509565747540199,
     unemployment_duration: 38,
     status: false,
     is_ofeloumenos: false
@@ -46,7 +48,7 @@ export const citizens = [
     birth_date: '1992-10-10',
     afm: 744824732,
     amka: 73122380299,
-    oaed_number: 97985049428887,
+    oaed_number: 9798504942888799,
     unemployment_duration: 15,
     status: false,
     is_ofeloumenos: false
@@ -58,7 +60,7 @@ export const citizens = [
     birth_date: '1990-11-28',
     afm: 507585829,
     amka: 88178027765,
-    oaed_number: 79900474280544,
+    oaed_number: 7990047428054499,
     unemployment_duration: 22,
     status: true,
     is_ofeloumenos: false
@@ -70,7 +72,7 @@ export const citizens = [
     birth_date: '1987-03-28',
     afm: 476651486,
     amka: 32871086029,
-    oaed_number: 13237738888213,
+    oaed_number: 1323773888821399,
     unemployment_duration: 34,
     status: false,
     is_ofeloumenos: false
@@ -82,7 +84,7 @@ export const citizens = [
     birth_date: '1992-01-18',
     afm: 378799939,
     amka: 14057211597,
-    oaed_number: 86149883862958,
+    oaed_number: 8614988386295899,
     unemployment_duration: 23,
     status: false,
     is_ofeloumenos: true
@@ -94,7 +96,7 @@ export const citizens = [
     birth_date: '1995-06-20',
     afm: 228044468,
     amka: 48879473402,
-    oaed_number: 81109851032894,
+    oaed_number: 8110985103289499,
     unemployment_duration: 10,
     status: true,
     is_ofeloumenos: true
@@ -106,7 +108,7 @@ export const citizens = [
     birth_date: '1988-12-29',
     afm: 863159919,
     amka: 12970953161,
-    oaed_number: 15562342201758,
+    oaed_number: 1556234220175899,
     unemployment_duration: 16,
     status: false,
     is_ofeloumenos: true
@@ -118,7 +120,7 @@ export const citizens = [
     birth_date: '1993-05-06',
     afm: 113353992,
     amka: 93583233108,
-    oaed_number: 92371518789767,
+    oaed_number: 9237151878976799,
     unemployment_duration: 13,
     status: false,
     is_ofeloumenos: true
@@ -130,7 +132,7 @@ export const citizens = [
     birth_date: '1994-03-14',
     afm: 838655142,
     amka: 91331667970,
-    oaed_number: 18479644767472,
+    oaed_number: 1847964476747299,
     unemployment_duration: 38,
     status: false,
     is_ofeloumenos: true
@@ -142,7 +144,7 @@ export const citizens = [
     birth_date: '1992-12-12',
     afm: 339310361,
     amka: 71695711918,
-    oaed_number: 46196105454218,
+    oaed_number: 4619610545421899,
     unemployment_duration: 31,
     status: false,
     is_ofeloumenos: false
@@ -154,7 +156,7 @@ export const citizens = [
     birth_date: '1999-04-19',
     afm: 436492754,
     amka: 27082994606,
-    oaed_number: 91462931396880,
+    oaed_number: 9146293139688099,
     unemployment_duration: 21,
     status: false,
     is_ofeloumenos: false
@@ -166,7 +168,7 @@ export const citizens = [
     birth_date: '1986-09-21',
     afm: 248369964,
     amka: 14116315132,
-    oaed_number: 56320683604585,
+    oaed_number: 5632068360458599,
     unemployment_duration: 26,
     status: false,
     is_ofeloumenos: false
@@ -178,7 +180,7 @@ export const citizens = [
     birth_date: '1989-07-28',
     afm: 739409229,
     amka: 55411122799,
-    oaed_number: 65772026766504,
+    oaed_number: 6577202676650499,
     unemployment_duration: 35,
     status: false,
     is_ofeloumenos: true
@@ -190,7 +192,7 @@ export const citizens = [
     birth_date: '1994-09-02',
     afm: 437100426,
     amka: 73836324569,
-    oaed_number: 78254185220866,
+    oaed_number: 7825418522086699,
     unemployment_duration: 40,
     status: true,
     is_ofeloumenos: false
@@ -202,7 +204,7 @@ export const citizens = [
     birth_date: '1989-11-13',
     afm: 703384293,
     amka: 17044041240,
-    oaed_number: 37960429718407,
+    oaed_number: 3796042971840799,
     unemployment_duration: 16,
     status: false,
     is_ofeloumenos: false
@@ -214,7 +216,7 @@ export const citizens = [
     birth_date: '1997-03-29',
     afm: 681003764,
     amka: 70921576505,
-    oaed_number: 60504520855455,
+    oaed_number: 6050452085545599,
     unemployment_duration: 12,
     status: false,
     is_ofeloumenos: true

@@ -25,7 +25,7 @@ function VoucherForm() {
           a.is_moriodotimeni
           && a.voucher_id.toString() === values.voucherId);
 
-        winner ? history.push('/coupon-pdf') : history.push('/app-results');
+        winner ? history.push('/coupon-pdf') : history.push('/app-results/invalid-voucher');
       }}
     >
       {({ isSubmitting, errors, touched }) => (
