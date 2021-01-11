@@ -29,11 +29,6 @@ function VoucherForm() {
       }}
     >
       {({ isSubmitting, errors, touched }) => (
-        // <div className="card shadow mt-5">
-        //   <div className="card-header">
-        //     <h3>Voucher_ID</h3>
-        //   </div>
-        //   <div className="card-body">
         <Form className="form-inline w-100 align-items-start">
           <div className="col-12 col-lg-6 col-md-12 col-sm-12 form-group p-0">
             <Field className={
@@ -55,8 +50,6 @@ function VoucherForm() {
             <button type="submit" disabled={isSubmitting} className="w-100 btn btn-primary float-right"><h4>Υποβολή</h4></button>
           </div>
         </Form>
-        //   </div>
-        // </div>
       )}
     </Formik>
 

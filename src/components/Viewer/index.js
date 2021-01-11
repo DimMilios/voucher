@@ -30,10 +30,7 @@ function Viewer() {
             <span className="ml-1">Λήψη</span>
           </a>
 
-          <a href={`${process.env.PUBLIC_URL}/perigrafi.pdf`}
-            download
-            target="_blank"
-            rel="noreferrer"
+          <button
             className="voucher-btn btn btn-light d-flex float-right"
           >
             <span>
@@ -43,7 +40,7 @@ function Viewer() {
               </svg>
             </span>
             <span className="ml-1">Εκτύπωση</span>
-          </a>
+          </button>
         </div>
       </div>
 

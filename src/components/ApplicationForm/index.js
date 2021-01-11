@@ -50,9 +50,15 @@ function ApplicationForm() {
         //   arithmosKartasOaed: '',
         //   arithmosTautotitas: '',
         // }}
+        // initialValues={{
+        //   afm: '412858468',
+        //   amka: '13733841872',
+        //   arithmosKartasOaed: '4385028453306299',
+        //   arithmosTautotitas: 'ΑΗ222222'
+        // }}
         initialValues={{
-          afm: '412858468',
-          amka: '13733841872',
+          afm: '412858486',
+          amka: '13733841333',
           arithmosKartasOaed: '4385028453306299',
           arithmosTautotitas: 'ΑΗ222222'
         }}

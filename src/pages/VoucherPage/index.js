@@ -1,6 +1,5 @@
 import React from 'react';
 import Footer from '../../components/Footer';
-// import Header from '../../components/Header';
 import { Link } from 'react-router-dom';
 import VoucherForm from '../../components/VoucherForm';
 import './VoucherPage.css';
@@ -8,7 +7,6 @@ import './VoucherPage.css';
 function VoucherPage() {
   return (
     <>
-      {/* <Header /> */}
       <main id="voucher-page">
         <div className="voucher container-fluid">
           <div className="row d-flex justify-content-center">

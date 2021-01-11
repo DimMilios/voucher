@@ -3,7 +3,6 @@ import { Link, useRouteMatch, useHistory } from 'react-router-dom';
 import { categories, citizens } from '../../db';
 
 function PreviewTable() {
-
   const [afm, setAfm] = useState('');
   const [amka, setAmka] = useState('');
   const [oaed, setOaed] = useState('');
@@ -25,8 +24,6 @@ function PreviewTable() {
       c.amka.toString() === `${match.params.amka}`
     );
 
-    // console.log(user);
-    // console.log(Object.values(categories))
     setAfm(user.afm);
     setAmka(user.amka);
     setOaed(user.oaed_number);
@@ -54,18 +51,16 @@ function PreviewTable() {
 
   const handleBackClick = () => history.goBack();
 
-  // const redirectOnError = () => {
-  //   console.log(values);
-  //   if (Date.parse(birthDate) < AGE_LIMIT || !status) {
-  //     console.log(status);
-  //     history.push('/app-results/not-found');
-  //     return;
-  //   }
-  // }
+  const redirectOnError = () => {
+    if (Date.parse(birthDate) < AGE_LIMIT) {
+      history.push('/app-results/not-found');
+      return;
+    }
+  }
 
   return (
     <>
-      {/* {redirectOnError()} */}
+      {redirectOnError()}
       <div className="col-lg-6 col-md-12 col-sm-12 col-12">
 
         <div className="card shadow mt-5">
@@ -102,7 +97,6 @@ function PreviewTable() {
               <div className="d-flex justify-content-between pb-3 px-2">
                 <button className="btn btn-outline-primary" onClick={handleBackClick}>
                   Πίσω
-                {/* <Link to="/app-form">Πίσω</Link> */}
                 </button>
                 <button className="btn btn-primary">
                   <Link to="/app-results/app-success">
