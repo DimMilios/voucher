@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/voucher/static/css/main.a346d10d.chunk.css",
-    "main.js": "/voucher/static/js/main.05d4a6bb.chunk.js",
-    "main.js.map": "/voucher/static/js/main.05d4a6bb.chunk.js.map",
+    "main.css": "/voucher/static/css/main.f4c476d0.chunk.css",
+    "main.js": "/voucher/static/js/main.48e84362.chunk.js",
+    "main.js.map": "/voucher/static/js/main.48e84362.chunk.js.map",
     "runtime-main.js": "/voucher/static/js/runtime-main.b79b983f.js",
     "runtime-main.js.map": "/voucher/static/js/runtime-main.b79b983f.js.map",
     "static/js/2.418b51ae.chunk.js": "/voucher/static/js/2.418b51ae.chunk.js",
     "static/js/2.418b51ae.chunk.js.map": "/voucher/static/js/2.418b51ae.chunk.js.map",
     "index.html": "/voucher/index.html",
-    "static/css/main.a346d10d.chunk.css.map": "/voucher/static/css/main.a346d10d.chunk.css.map",
+    "static/css/main.f4c476d0.chunk.css.map": "/voucher/static/css/main.f4c476d0.chunk.css.map",
     "static/js/2.418b51ae.chunk.js.LICENSE.txt": "/voucher/static/js/2.418b51ae.chunk.js.LICENSE.txt",
     "static/media/VoucherPage.css": "/voucher/static/media/starbucks-bg.2be5ef36.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b79b983f.js",
     "static/js/2.418b51ae.chunk.js",
-    "static/css/main.a346d10d.chunk.css",
-    "static/js/main.05d4a6bb.chunk.js"
+    "static/css/main.f4c476d0.chunk.css",
+    "static/js/main.48e84362.chunk.js"
   ]
 }
