@@ -30,3 +30,15 @@ button.btn-outline-dark:hover {
   border-color: var(--dark-green);
   background-color: #fff;
 }
+
+#voucher-link {
+  border-color: var(--dark-green);
+  background-color: var(--dark-green);
+  color: var(--white);
+  font-size: large;
+}
+
+#voucher-link:hover {
+  border-color: var(--dark-green);
+  background-color: #fff;
+}

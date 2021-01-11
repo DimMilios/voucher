@@ -1,8 +1,10 @@
 import React from 'react';
-import { Redirect, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import './ApplicationForm.css';
+
+import { citizens, aitiseis } from '../../db';
 
 const FormSchema = Yup.object().shape({
   afm: Yup.string()
@@ -36,27 +38,48 @@ function ApplicationForm() {
     ? `is-invalid ${restClassNames}`
     : `is-valid ${restClassNames}`;
 
-  const [shouldSubmit, setShouldSubmit] = React.useState(false);
-  const [values, setValues] = React.useState({});
-
-  const handleSubmit = (errors, touched) => setShouldSubmit(!errors.afm && touched.afm && !errors.amka && touched.amka && !errors.arithmosKartasOaed && touched.arithmosKartasOaed && !errors.arithmosTautotitas && touched.arithmosTautotitas);
 
   // React.useEffect(() => console.log(location), []);
 
   return (
     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
       <Formik
+        // initialValues={{
+        //   afm: '',
+        //   amka: '',
+        //   arithmosKartasOaed: '',
+        //   arithmosTautotitas: '',
+        // }}
+        // initialValues={{
+        //   afm: '412858468',
+        //   amka: '13733841872',
+        //   arithmosKartasOaed: '4385028453306299',
+        //   arithmosTautotitas: 'ΑΗ222222'
+        // }}
         initialValues={{
-          afm: '',
-          amka: '',
-          arithmosKartasOaed: '',
-          arithmosTautotitas: '',
+          afm: '412858486',
+          amka: '13733841333',
+          arithmosKartasOaed: '4385028453306299',
+          arithmosTautotitas: 'ΑΗ222222'
         }}
         validationSchema={FormSchema}
-        onSubmit={values => {
-          console.log(values);
-          setValues(values);
-          history.push('/app-review');
+        onSubmit={({ afm, amka, arithmosKartasOaed, arithmosTautotitas }) => {
+          // console.log(values);
+          const user = citizens.find(c =>
+            c.afm.toString() === afm
+            && c.amka.toString() === amka
+            && c.oaed_number.toString() === arithmosKartasOaed
+          );
+
+          if (user && aitiseis.some(a => a.amka === user.amka)) {
+            history.push('/app-results/duplicate-app');
+            return;
+          }
+
+          user
+            ? history.push(`/app-review/${amka}`)
+            : history.push('/app-results/not-found');
+          // history.push('/app-review');
         }}
       >
         {({ errors, touched, isSubmitting, resetForm }) => (

@@ -26,11 +26,9 @@ function HomePage() {
                   <h5 className="text-white mt-4" style={{ lineHeight: '2.2rem' }}>
                     Σας προσφέρουμε τον τέλειο καφέ. Γι' αυτό ξεκινήσαμε το 1971 και γι' αυτό συνεχίζουμε μέχρι σήμερα.
                 </h5>
-                  {/* <button className="btn btn-outline-light float-right mt-4 mr-4 pr-2"> */}
-                  <a className="text-white mt-4 p-2 border rounded float-right" style={{ fontSize: 'large' }} href="https://www.starbucks.com.gr/menu-list/beverage-list" target="_blank" rel="noreferrer">
-                    Δοκιμάστε ένα ρόφημα σήμερα
+                  <a className="text-white mt-4 mr-4 p-2 border rounded float-right" style={{ fontSize: 'large' }} href="https://www.starbucks.com.gr/menu-list/beverage-list" target="_blank" rel="noreferrer">
+                    Δοκιμάστε ένα ρόφημα
                   </a>
-                  {/* </button> */}
                 </div>
 
               </div>
@@ -42,12 +40,9 @@ function HomePage() {
               <div className="row panel mb-lg-0 mb-5">
                 <div className="col-lg-7 col-md-12 col-sm-12 align-self-center pl-lg-5 p-md-5 p-sm-5 p-5">
                   <h3 className="text-white">Πρόγραμμα Voucher</h3>
-                  <h5 className="text-white mt-4 mb-3" style={{ lineHeight: '2.2rem' }}>
-                    Η εταιρεία Starbucks δημιούργησε το πρόγραμμα Voucher με σκοπό τη διανομή ηλεκτρονικών κουπονιών σε άνεργους. Κάθε κουπόνι μπορεί να εξαργυρωθεί σε καταστήματα της εταιρείας ανά τον κόσμο.
+                  <h5 className="text-white mt-4 mb-4" style={{ lineHeight: '2.2rem' }}>
+                    Η εταιρεία Starbucks δημιούργησε το πρόγραμμα Voucher με σκοπό τη διανομή ηλεκτρονικών κουπονιών σε 10.000 άνεργους. Κάθε κουπόνι μπορεί να εξαργυρωθεί σε καταστήματα της εταιρείας ανά τον κόσμο.
                 </h5>
-
-
-                  {/* <button className="btn btn-outline-light p-0"> */}
                   <NavLink
                     to="/app-form"
                     style={{ fontSize: 'large' }}
@@ -61,13 +56,11 @@ function HomePage() {
                       *Υποψήφιοι δικαιούχοι ενός κουπονιού είναι άτομα που έχουν γεννηθεί μετά τις 31/12/1984 και έχουν ενεργή εγγραφή στο μητρώο πελατών της εταιρείας.
                     </small>
                   </div>
-                  {/* </button> */}
                 </div>
 
 
                 <img
                   className="p-5 col-lg-5 col-md-12 col-sm-12"
-                  // style={{ height: '40vh', width: '30vw' }}
                   src={`${process.env.PUBLIC_URL}/pistachio.png`}
                   alt="Εικόνα ροφήματος"
                 />

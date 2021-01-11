@@ -3,11 +3,12 @@ import { aitiseis } from '../../db';
 
 function ApplicationTable() {
   return (
-    <table className="table table-striped">
+    <table className="mt-3 table table-striped">
       <thead>
         <tr>
           <th scope="col">#</th>
           <th scope="col">ΑΜΚΑ</th>
+          <th scope="col">VOUCHER_ID</th>
           <th scope="col">ΜΟΡΙΑ</th>
         </tr>
       </thead>
@@ -19,6 +20,7 @@ function ApplicationTable() {
             <tr key={index}>
               <th scope="row">{index + 1}</th>
               <td>{aitisi.amka}</td>
+              <td>{aitisi.voucher_id}</td>
               <td>{aitisi.moria}</td>
             </tr>
           )}

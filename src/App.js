@@ -17,16 +17,17 @@ import PdfViewerPage from "./pages/PdfViewerPage";
 import AdminPage from "./pages/AdminPage";
 
 function App() {
+
   return (
     <Router>
       <Switch>
         <Route path="/app-form">
           <ApplicationFormPage />
         </Route>
-        <Route path="/app-review">
+        <Route path="/app-review/:amka">
           <ReviewPage />
         </Route>
-        <Route path="/app-results">
+        <Route path="/app-results/:key">
           <ResultPage />
         </Route>
         <Route path="/activate">

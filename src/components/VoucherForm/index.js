@@ -1,7 +1,10 @@
 import React from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
+import { useHistory } from 'react-router-dom';
 import './VoucherForm.css';
+
+import { aitiseis } from '../../db';
 
 const FormSchema = Yup.object().shape({
   voucherId: Yup.string()
@@ -10,18 +13,22 @@ const FormSchema = Yup.object().shape({
 });
 
 function VoucherForm() {
+  const history = useHistory();
+
   return (
     <Formik
       initialValues={{ voucherId: '' }}
       validationSchema={FormSchema}
-      onSubmit={values => console.log(values)}
+      onSubmit={values => {
+        console.log(values);
+        const winner = aitiseis.find(a =>
+          a.is_moriodotimeni
+          && a.voucher_id.toString() === values.voucherId);
+
+        winner ? history.push('/coupon-pdf') : history.push('/app-results/invalid-voucher');
+      }}
     >
       {({ isSubmitting, errors, touched }) => (
-        // <div className="card shadow mt-5">
-        //   <div className="card-header">
-        //     <h3>Voucher_ID</h3>
-        //   </div>
-        //   <div className="card-body">
         <Form className="form-inline w-100 align-items-start">
           <div className="col-12 col-lg-6 col-md-12 col-sm-12 form-group p-0">
             <Field className={
@@ -43,8 +50,6 @@ function VoucherForm() {
             <button type="submit" disabled={isSubmitting} className="w-100 btn btn-primary float-right"><h4>Υποβολή</h4></button>
           </div>
         </Form>
-        //   </div>
-        // </div>
       )}
     </Formik>
 
