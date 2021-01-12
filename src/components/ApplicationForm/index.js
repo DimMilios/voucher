@@ -44,24 +44,24 @@ function ApplicationForm() {
   return (
     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
       <Formik
-        // initialValues={{
-        //   afm: '',
-        //   amka: '',
-        //   arithmosKartasOaed: '',
-        //   arithmosTautotitas: '',
-        // }}
+        initialValues={{
+          afm: '',
+          amka: '',
+          arithmosKartasOaed: '',
+          arithmosTautotitas: '',
+        }}
         // initialValues={{
         //   afm: '412858468',
         //   amka: '13733841872',
         //   arithmosKartasOaed: '4385028453306299',
         //   arithmosTautotitas: 'ΑΗ222222'
         // }}
-        initialValues={{
-          afm: '412858486',
-          amka: '13733841333',
-          arithmosKartasOaed: '4385028453306299',
-          arithmosTautotitas: 'ΑΗ222222'
-        }}
+        // initialValues={{
+        //   afm: '412858486',
+        //   amka: '13733841333',
+        //   arithmosKartasOaed: '4385028453306299',
+        //   arithmosTautotitas: 'ΑΗ222222'
+        // }}
         validationSchema={FormSchema}
         onSubmit={({ afm, amka, arithmosKartasOaed, arithmosTautotitas }) => {
           // console.log(values);
